@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#e0cc88" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="deep learning certificate">
+  <rect x="11" y="13" width="42" height="38" rx="5" fill="#0b211d" stroke="#9f8243"/>
+  <circle cx="23" cy="32" r="5"/>
+  <circle cx="41" cy="23" r="4"/>
+  <circle cx="41" cy="41" r="4"/>
+  <path d="M28 30 37 25M28 34l9 5"/>
+</svg>

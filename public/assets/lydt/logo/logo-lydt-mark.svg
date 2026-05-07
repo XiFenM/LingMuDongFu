@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">LYDT tree-ring mark</title>
+  <desc id="desc">Circular LYDT logo with tree rings and restrained rune accents.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="48%" r="58%">
+      <stop offset="0" stop-color="#12352e"/>
+      <stop offset="0.7" stop-color="#0b211d"/>
+      <stop offset="1" stop-color="#030807"/>
+    </radialGradient>
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="1.4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <circle cx="64" cy="64" r="59" fill="url(#bg)" stroke="#c0a35d" stroke-width="2"/>
+  <circle cx="64" cy="64" r="51" fill="none" stroke="#e0cc88" stroke-width="1" stroke-dasharray="3 5" opacity=".72"/>
+  <g fill="none" stroke="#9f8243" stroke-width="1.35" opacity=".78">
+    <path d="M31 58c7-22 28-31 46-21 18 10 21 34 7 48-13 13-35 10-43-6-7-14-1-30 12-35 13-5 27 2 31 14 4 13-4 26-17 28-12 2-22-6-22-17 0-9 7-17 16-17 9 0 16 8 14 17-1 7-7 12-14 11-6-1-10-6-9-12 1-5 6-8 10-7"/>
+    <path d="M23 67c12 2 24 1 36-3 13-4 27-4 45 2"/>
+    <path d="M42 28c3 11 10 20 21 27 10 7 17 16 20 29"/>
+    <path d="M88 35c-11 5-21 12-29 22-8 9-18 16-31 21"/>
+  </g>
+  <g stroke="#e0cc88" stroke-width="1.2" stroke-linecap="round" opacity=".9">
+    <path d="M64 8v10"/>
+    <path d="M64 110v10"/>
+    <path d="M8 64h10"/>
+    <path d="M110 64h10"/>
+    <path d="M24 24l6 6"/>
+    <path d="M98 98l6 6"/>
+    <path d="M104 24l-6 6"/>
+    <path d="M30 98l-6 6"/>
+  </g>
+  <text x="64" y="71" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="23" font-weight="700" letter-spacing="2" fill="#f0e5c9" filter="url(#softGlow)">LYDT</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 48" preserveAspectRatio="none" role="img" aria-label="jade tag pill">
+  <defs>
+    <linearGradient id="jade" x1="0" x2="1">
+      <stop offset="0" stop-color="#b9d1c4"/>
+      <stop offset=".52" stop-color="#8eb09b"/>
+      <stop offset="1" stop-color="#6a9580"/>
+    </linearGradient>
+  </defs>
+  <path d="M20 4h120c9 0 16 7 16 16v8c0 9-7 16-16 16H20C11 44 4 37 4 28v-8C4 11 11 4 20 4z" fill="url(#jade)" opacity=".95"/>
+  <path d="M22 8h116c7 0 12 5 12 12v8c0 7-5 12-12 12H22c-7 0-12-5-12-12v-8c0-7 5-12 12-12z" fill="none" stroke="#e8e2cf" stroke-width="1" opacity=".75"/>
+  <path d="M22 36c22-10 40-10 56-2 22 10 44 7 62-7" fill="none" stroke="#4e7a68" stroke-width="1.4" opacity=".5"/>
+</svg>

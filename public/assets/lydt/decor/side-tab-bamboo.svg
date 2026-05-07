@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 192" role="img" aria-label="bamboo side tab">
+  <path d="M18 8h36l8 16v144l-8 16H18l-8-16V24z" fill="#d8c7a2" stroke="#4a321d" stroke-width="3"/>
+  <path d="M18 8c10 7 26 7 36 0M10 56h52M10 136h52M18 184c10-7 26-7 36 0" fill="none" stroke="#9f8243" stroke-width="1.5" opacity=".75"/>
+  <path d="M28 28c4 22 1 41 5 62 5 27 1 49 6 74M45 24c-3 30 4 55 0 82-2 18 3 34-1 61" fill="none" stroke="#b8a67e" stroke-width="1" opacity=".45"/>
+</svg>

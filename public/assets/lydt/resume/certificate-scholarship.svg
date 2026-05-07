@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#e0cc88" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="scholarship certificate">
+  <path d="M32 8 8 20l24 12 24-12z" fill="#0b211d" stroke="#9f8243"/>
+  <path d="M18 26v14c8 7 20 7 28 0V26"/>
+  <path d="M52 22v18"/>
+  <circle cx="52" cy="45" r="3"/>
+</svg>

@@ -1,1 +1,2 @@
 # LingMuDongFu
+我正在制作我的个人主页，请阅读prd文档灵木洞天个人主页prd.md和design文件夹中的设计参考文档，并查看design/pages文件夹中的页面设计图。然后参考design/prompt-reference.md，根据design/灵木洞天网页落地美术素材需求文档.md的需求，调用image gen skill 使用gpt-image-2模型进行生成所需的美术素材。我们先创建第一阶段P0必做的清单上的美术素材。
