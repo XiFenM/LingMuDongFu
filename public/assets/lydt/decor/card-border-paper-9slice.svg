@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 160" preserveAspectRatio="none" role="img" aria-label="paper card border">
-  <rect x="9" y="9" width="238" height="142" rx="6" fill="#f0e5c9" stroke="#4a321d" stroke-width="3"/>
-  <rect x="15" y="15" width="226" height="130" rx="4" fill="none" stroke="#9f8243" stroke-width="1.2" opacity=".75"/>
-  <path d="M17 35c18-7 36 4 54-2 19-6 38-9 58-4 23 5 41-7 64-2 15 3 28 1 46-4M18 130c28 5 55-2 80 3 37 8 76-8 114-1 11 2 19 2 28-1" fill="none" stroke="#b8a67e" stroke-width="1" opacity=".4"/>
-  <path d="M18 18l22 4-18 14M238 18l-20 4 16 15M18 142l22-4-15-15M238 142l-22-4 16-15" fill="none" stroke="#4a321d" stroke-width="1.5" opacity=".65"/>
-</svg>
