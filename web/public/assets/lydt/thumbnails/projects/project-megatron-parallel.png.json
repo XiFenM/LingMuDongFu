@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-05-13T10:02:35",
+  "type": "wide",
+  "aspect_ratio": "16:9",
+  "prompt": "Reference image role: the project list prototype defines our project-thumbnail visual DNA — dark ink-green base, abstract glowing tech motif on the right, mossy/firefly accents, restrained Eastern xianxia + tech fusion. PRESERVE this DNA. Each project cover is a 16:9 atmospheric banner with one recognizable tech metaphor at the right and quiet space at left.\n\nCreate a 16:9 project cover image for \"Megatron 并行机制笔记 / Megatron-LM Deployment\". NO text, NO logos.\n\nSubject: A central glowing ancient tree at the right, but its branches split into perfectly symmetric parallel circuit-like paths flowing downward and outward (suggesting model parallelism). Each branch has tiny glowing nodes in firefly cyan #9CF0BD and warm gold #C0A35D. Behind the tree, faint hexagonal mesh patterns in deep teal suggest distributed compute. Bottom-left foreground has a soft glowing data node.\n\nComposition: subject on right 60%, left 40% intentionally dark and quiet for HTML text overlay. Cinematic atmosphere, low-key, professional, NOT game UI.\n\nColor HEX: base #0B211D, wood #24180F, glow #9CF0BD, gold #C0A35D, accent jade #6A9580.\n\nAvoid: real company logos, readable text, characters, neon, purple, red, cartoonish, MMORPG, oversaturated, modern flat illustration.",
+  "refs": [
+    "/root/workspace/LingMuDongFu/design/pages/项目列表页.png"
+  ],
+  "provider": "zenmux",
+  "model": "openai/gpt-image-2",
+  "base_url": "https://zenmux.ai/api/vertex-ai",
+  "output_path": "/root/workspace/LingMuDongFu/web/public/assets/lydt/thumbnails/projects/project-megatron-parallel.png",
+  "response_text": ""
+}

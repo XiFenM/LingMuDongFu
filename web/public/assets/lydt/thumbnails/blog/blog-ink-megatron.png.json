@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-05-13T12:09:01",
+  "type": "wide",
+  "aspect_ratio": "16:9",
+  "prompt": "Reference image role: the previous blog thumbnail (mountains + glowing cube) defines the style — Chinese ink-wash painting fused with one soft modern tech metaphor, warm muted parchment-green background, low contrast, painterly soft edges. PRESERVE this style exactly.\n\nCreate a 16:9 blog thumbnail for article \"Megatron 并行机制笔记\". NO text.\n\nSubject: Ink-wash painting of a distant fleet of ancient sailing ships sailing in formation across a misty sea, with parallel sail rows aligned (suggesting parallelism). Painted in soft grey-black brush strokes. Above the ships, faint golden #C0A35D parallel beams of light descend, illuminating each ship equally. A few tiny firefly cyan #9CF0BD lanterns on the masts.\n\nStyle: Brush-painted, atmospheric, suggests \"synchronized fleet, parallel paths\". Same warm parchment-green background.\n\nColor HEX: ink black #1a1d1c, mist grey #3a4540, paper warm #2a3128, cyan #9CF0BD, gold #C0A35D.\n\nAvoid: real text, characters, photographic realism, neon, red, purple, cartoonish, modern flat illustration.",
+  "refs": [
+    "/root/workspace/LingMuDongFu/web/public/assets/lydt/thumbnails/blog/blog-ink-triton-cuda.png"
+  ],
+  "provider": "zenmux",
+  "model": "openai/gpt-image-2",
+  "base_url": "https://zenmux.ai/api/vertex-ai",
+  "output_path": "/root/workspace/LingMuDongFu/web/public/assets/lydt/thumbnails/blog/blog-ink-megatron.png",
+  "response_text": ""
+}

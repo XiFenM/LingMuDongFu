@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-05-13T12:27:12",
+  "type": "square",
+  "aspect_ratio": "1:1",
+  "prompt": "Professional placeholder portrait for resume page. Square photo, head and shoulders, centered.\n\nSubject: An Asian male AI infrastructure engineer in his late 20s, calm focused expression, short clean hair, looking slightly off-camera. Wearing a simple dark green or charcoal grey shirt or sweater. Photographic realism, professional headshot quality, natural soft lighting. Background: very simple dark deep-green #0B211D blurred (bokeh), no distracting elements.\n\nStyle: Modern professional LinkedIn-style portrait, not corporate-stiff, slightly artistic, warm yet quiet personality. The face should be photoreal but generic enough to serve as a placeholder.\n\nAvoid: cartoonish, anime, oversaturated, neon, beauty filter, plastic skin, fantasy costume, MMORPG character, accessories like glasses, hats, beard, jewelry, tattoos, logos on clothing, dramatic shadows, busy background.",
+  "refs": [],
+  "provider": "zenmux",
+  "model": "openai/gpt-image-2",
+  "base_url": "https://zenmux.ai/api/vertex-ai",
+  "output_path": "/root/workspace/LingMuDongFu/web/public/assets/lydt/resume/avatar-placeholder.png",
+  "response_text": ""
+}

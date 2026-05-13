@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-05-13T12:21:41",
+  "type": "wide",
+  "aspect_ratio": "16:9",
+  "prompt": "Reference image role: same as previous blog thumbnails — Chinese ink-wash painting fused with one soft modern tech metaphor, warm parchment-green background, low contrast, painterly soft edges. PRESERVE this style exactly.\n\nCreate a 16:9 blog thumbnail for article \"Softmax Kernel 时性能优化\". NO text.\n\nSubject: Ink-wash painting of a stepped mountain terrace (like Mt. Hua stone steps) rising on the right, with thin streams of glowing golden #C0A35D liquid flowing downward from peak to base, redistributing across the steps with perfectly normalized flow (suggesting softmax normalization). Painted in soft grey-black brush strokes. A single firefly cyan #9CF0BD glow at the top of the staircase.\n\nStyle: Brush-painted, atmospheric, low contrast. Same warm parchment-green background.\n\nColor HEX: ink black #1a1d1c, mist grey #3a4540, paper warm #2a3128, cyan #9CF0BD, gold #C0A35D.\n\nAvoid: real text, characters, neon, red, purple, cartoonish, photographic, modern flat illustration.",
+  "refs": [
+    "/root/workspace/LingMuDongFu/web/public/assets/lydt/thumbnails/blog/blog-ink-triton-cuda.png"
+  ],
+  "provider": "zenmux",
+  "model": "openai/gpt-image-2",
+  "base_url": "https://zenmux.ai/api/vertex-ai",
+  "output_path": "/root/workspace/LingMuDongFu/web/public/assets/lydt/thumbnails/blog/blog-ink-softmax-kernel.png",
+  "response_text": ""
+}

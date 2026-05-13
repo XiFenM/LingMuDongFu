@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-05-13T09:56:03",
+  "type": "wide",
+  "aspect_ratio": "16:9",
+  "prompt": "Reference image role: the blog detail prototype defines the visual DNA — moonlit tree-hollow study room with bookshelves, an open writing desk, a glowing round paper moon-window, hanging lanterns, restrained Eastern xianxia mood. PRESERVE this DNA. Banner-style hero (shorter than full hero).\n\nCreate a wide hero banner for the blog article page top section of \"灵木洞天 / LYDT\". 16:9 wide format.\n\nComposition:\n- Right 55%: A study room nook inside the tree hollow — built-in wooden shelves with stitched books and scrolls visible on the upper walls, an old wood writing desk in foreground with an open paper book, brush and ink. A large round paper moon-window glowing cool moonlight over distant bamboo silhouettes. Two warm lanterns. Mossy roots.\n- Left 45%: Dark intentionally quiet area for article title, breadcrumb, tags, metadata to be overlaid by HTML. NO text, NO UI in this image.\n\nColor HEX: base #0B211D, wood #24180F, moss #33513A, lantern #ddb87a, moonlight #b8d4e0, firefly #9CF0BD, gold #C0A35D.\n\nAvoid: people, text, characters, browser frames, neon, purple, red, MMORPG, oversaturated, cartoonish.",
+  "refs": [
+    "/root/workspace/LingMuDongFu/design/pages/博客详情页.png"
+  ],
+  "provider": "zenmux",
+  "model": "openai/gpt-image-2",
+  "base_url": "https://zenmux.ai/api/vertex-ai",
+  "output_path": "/root/workspace/LingMuDongFu/web/public/assets/lydt/bg/bg-blog-detail-study-desktop.png",
+  "response_text": ""
+}

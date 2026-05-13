@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-05-13T09:32:40",
+  "type": "square",
+  "aspect_ratio": "1:1",
+  "prompt": "Brand asset for \"灵木洞天 / LYDT\" personal portfolio. Create a circular tree-ring emblem logo, viewed straight-on, centered on solid deep ink-green background #0B211D.\n\nConcept: Multiple concentric tree-ring circles, slightly irregular like real growth rings, with thin warm-gold #C0A35D contours on dark wood texture. At the center, four large stylized Latin letters \"LYDT\" arranged elegantly (L top-left, Y top-right, D bottom-left, T bottom-right) carved into the wood, gilded with muted gold. Outer ring decorated with subtle radial cuts and tiny firefly cyan glow #9CF0BD dots at four cardinal points.\n\nStyle: Refined Eastern xianxia mark, restrained, looks like a wax seal meets a tree cross-section. Not flashy, not game-style. High contrast. Symmetric. Crisp edges. No text outside the rings. No watermark. No Chinese characters in the logo itself. Single square composition, the emblem fills 85% of frame.\n\nColor palette HEX: #0B211D, #24180F, #C0A35D, #9CF0BD, #E8E2CF.\n\nAvoid: neon, purple, red, cartoonish, MMORPG game UI, oversaturated, modern minimalism, flat vector without depth.",
+  "refs": [],
+  "provider": "zenmux",
+  "model": "openai/gpt-image-2",
+  "base_url": "https://zenmux.ai/api/vertex-ai",
+  "output_path": "/root/workspace/LingMuDongFu/web/public/assets/lydt/logo/logo-lydt-mark.png",
+  "response_text": ""
+}

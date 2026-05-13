@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-05-13T12:29:00",
+  "type": "portrait",
+  "aspect_ratio": "3:4",
+  "prompt": "Decorative element for Eastern xianxia website. Tall narrow banner, 3:4 portrait orientation, single asset on solid deep ink-green background #0B211D.\n\nSubject: A tall vertical hanging banner (挂轴) made of aged warm parchment #D8C7A2 paper hanging from a dark wood horizontal rod at the top. Two thin gold #C0A35D tassels dangle from the rod corners. The paper has frayed edges, slight aging stains, and visible paper fiber texture. A subtle dark wood bottom weight bar. The paper face is BLANK — no text, no characters, no calligraphy, no patterns — completely empty cream parchment ready for HTML text overlay.\n\nFrame the banner centered, occupying ~80% of the vertical and 40% of the horizontal frame, with soft cast shadow behind. Realistic material rendering — aged paper, wood, gold metal.\n\nAvoid: any text, any Chinese characters, any calligraphy, any drawings on the paper, watermarks, signatures, oversaturated colors, neon, modern style, cartoonish.",
+  "refs": [],
+  "provider": "zenmux",
+  "model": "openai/gpt-image-2",
+  "base_url": "https://zenmux.ai/api/vertex-ai",
+  "output_path": "/root/workspace/LingMuDongFu/web/public/assets/lydt/decor/decor-hanging-banner-paper.png",
+  "response_text": ""
+}

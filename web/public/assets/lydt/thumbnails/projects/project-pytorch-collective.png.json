@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-05-13T10:06:28",
+  "type": "wide",
+  "aspect_ratio": "16:9",
+  "prompt": "Reference image role: the previous Megatron project cover defines the style — dark ink-green base, right-side glowing tech motif, left-side quiet for text overlay, restrained Eastern xianxia + tech fusion. Same color palette, same mood.\n\nCreate a 16:9 project cover image for \"PyTorch Custom Collective / AllReduce\". NO text, NO logos.\n\nSubject: A glowing concentric ring/vortex on the right — multiple thin gold rings rotating around a central firefly cyan core, with curved flow-lines spiraling inward from all directions (suggesting collective communication and AllReduce). Tiny luminous node points distributed evenly on each ring. Background fades to dark with subtle network-like dots in deep teal.\n\nComposition: vortex subject on right 60%, left 40% dark and quiet. Cinematic, professional, NOT game UI.\n\nColor HEX: base #0B211D, glow #9CF0BD, gold #C0A35D, jade #6A9580, dark teal #18483E.\n\nAvoid: company logos, readable text, characters, neon purple, red, cartoonish, MMORPG, oversaturated.",
+  "refs": [
+    "/root/workspace/LingMuDongFu/web/public/assets/lydt/thumbnails/projects/project-megatron-parallel.png"
+  ],
+  "provider": "zenmux",
+  "model": "openai/gpt-image-2",
+  "base_url": "https://zenmux.ai/api/vertex-ai",
+  "output_path": "/root/workspace/LingMuDongFu/web/public/assets/lydt/thumbnails/projects/project-pytorch-collective.png",
+  "response_text": ""
+}

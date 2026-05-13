@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-05-13T10:04:29",
+  "type": "wide",
+  "aspect_ratio": "16:9",
+  "prompt": "Reference image role: the previous Megatron project cover defines the style — dark ink-green base, right-side glowing tech motif, left-side quiet for text overlay, restrained Eastern xianxia + tech fusion. Same color palette, same mood, same composition pattern.\n\nCreate a 16:9 project cover image for \"CUDA Softmax Kernel\". NO text, NO logos.\n\nSubject: A central glowing translucent cube floating in dark space, made of cyan-teal #9CF0BD inner glow with golden grid lines #C0A35D etched on its surface (suggesting GPU compute). Around it, thin curved arrows or geometric flowlines indicate softmax normalization. Tiny firefly motes around the cube. Faint matrix-like dim grid in background. Bottom of frame fades to deep ink-green.\n\nComposition: cube subject on right 60%, left 40% dark and quiet for text overlay. Cinematic, professional, NOT game UI.\n\nColor HEX: base #0B211D, glow #9CF0BD, gold #C0A35D, accent jade #6A9580, dark teal #18483E.\n\nAvoid: real company logos, readable text or numbers, characters, neon purple, red, cartoonish, MMORPG, oversaturated.",
+  "refs": [
+    "/root/workspace/LingMuDongFu/web/public/assets/lydt/thumbnails/projects/project-megatron-parallel.png"
+  ],
+  "provider": "zenmux",
+  "model": "openai/gpt-image-2",
+  "base_url": "https://zenmux.ai/api/vertex-ai",
+  "output_path": "/root/workspace/LingMuDongFu/web/public/assets/lydt/thumbnails/projects/project-cuda-softmax.png",
+  "response_text": ""
+}

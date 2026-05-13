@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-05-13T12:20:00",
+  "type": "wide",
+  "aspect_ratio": "16:9",
+  "prompt": "Reference image role: same as previous blog thumbnails — Chinese ink-wash painting fused with one soft modern tech metaphor, warm parchment-green background, low contrast, painterly soft edges. PRESERVE this style exactly.\n\nCreate a 16:9 blog thumbnail for article \"ProcessGroup 与 NCCL 通信路径梳理\". NO text.\n\nSubject: Ink-wash painting of a vast night sky with painted ink-wash clouds and several distant pavilions silhouetted on misty mountain peaks, connected by faint glowing thin golden #C0A35D lines tracing communication paths between them. Tiny firefly cyan #9CF0BD nodes light up at key path intersections.\n\nStyle: Brush-painted, atmospheric, low contrast, suggests \"constellation of nodes connected across distance\". Same warm parchment-green background.\n\nColor HEX: ink black #1a1d1c, mist grey #3a4540, paper warm #2a3128, cyan #9CF0BD, gold #C0A35D.\n\nAvoid: real text, characters, neon, red, purple, cartoonish, modern flat illustration, photographic.",
+  "refs": [
+    "/root/workspace/LingMuDongFu/web/public/assets/lydt/thumbnails/blog/blog-ink-triton-cuda.png"
+  ],
+  "provider": "zenmux",
+  "model": "openai/gpt-image-2",
+  "base_url": "https://zenmux.ai/api/vertex-ai",
+  "output_path": "/root/workspace/LingMuDongFu/web/public/assets/lydt/thumbnails/blog/blog-ink-processgroup-nccl.png",
+  "response_text": ""
+}

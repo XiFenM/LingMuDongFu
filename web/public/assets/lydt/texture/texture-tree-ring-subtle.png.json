@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-05-13T09:38:32",
+  "type": "square",
+  "aspect_ratio": "1:1",
+  "prompt": "Decorative background texture — not strictly tileable. Square format.\n\nSubject: A large faint cross-section view of tree rings — concentric, slightly irregular, hand-drawn quality, with rings emanating from the center outward. Background is deep ink-green #0B211D with the ring lines in muted warm gold #C0A35D at very low contrast (~15% visible), like a watermark.\n\nThis will be used as a section background or behind logos at low opacity. The center should be slightly visible but the rings extend off the edges. Style: clean Eastern xianxia, like a temple emblem watermark.\n\nAvoid: bright colors, sharp lines, neon, modern vector look, busy details, photographic wood, text, characters, central focal point that competes with foreground content.",
+  "refs": [],
+  "provider": "zenmux",
+  "model": "openai/gpt-image-2",
+  "base_url": "https://zenmux.ai/api/vertex-ai",
+  "output_path": "/root/workspace/LingMuDongFu/web/public/assets/lydt/texture/texture-tree-ring-subtle.png",
+  "response_text": ""
+}

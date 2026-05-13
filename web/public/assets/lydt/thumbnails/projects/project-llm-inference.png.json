@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-05-13T10:08:57",
+  "type": "wide",
+  "aspect_ratio": "16:9",
+  "prompt": "Reference image role: the previous project covers (Megatron tree, CUDA cube, PyTorch vortex) define the style — dark ink-green base, central or right glowing tech motif, restrained Eastern xianxia + tech fusion. Same color palette and mood.\n\nCreate a 16:9 project cover image for \"LLM Inference 优化实践\". NO text, NO logos.\n\nSubject: A glowing translucent rectangular box/server-rack-like compute unit at center, with multiple horizontal data-streams of glowing dots flowing in from the left and emerging optimized on the right (suggesting fast inference). Inside the box, fine golden grid lines and tiny firefly cyan glow nodes. Soft halo around the unit. Background fades to dark ink-green.\n\nComposition: subject center-right 60%, left quiet for text. Cinematic, professional.\n\nColor HEX: base #0B211D, glow #9CF0BD, gold #C0A35D, jade #6A9580, dark teal #18483E.\n\nAvoid: company logos, readable text/numbers, characters, neon purple, red, cartoonish, MMORPG.",
+  "refs": [
+    "/root/workspace/LingMuDongFu/web/public/assets/lydt/thumbnails/projects/project-megatron-parallel.png"
+  ],
+  "provider": "zenmux",
+  "model": "openai/gpt-image-2",
+  "base_url": "https://zenmux.ai/api/vertex-ai",
+  "output_path": "/root/workspace/LingMuDongFu/web/public/assets/lydt/thumbnails/projects/project-llm-inference.png",
+  "response_text": ""
+}

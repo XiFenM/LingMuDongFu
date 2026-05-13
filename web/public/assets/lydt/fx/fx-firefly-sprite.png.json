@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-05-13T12:29:46",
+  "type": "square",
+  "aspect_ratio": "1:1",
+  "prompt": "A single tiny glowing firefly orb on solid black background #000000. Square format. The orb is centered, occupying ~25% of frame.\n\nSubject: A soft luminous round particle with a glowing cyan-green core #9CF0BD, slightly warm halo blending to gold #C0A35D at the very edge, surrounded by a soft diffuse outer glow that fades smoothly to pure black. The center is bright, the glow falls off radially in a clean photographic bokeh fashion. No internal structure, no pattern, no shape variation — just a smooth glowing dot.\n\nPurpose: This will be cut out and used as a small particle sprite (firefly) duplicated across UI backgrounds with CSS opacity and animation.\n\nAvoid: insects, wings, legs, body, any creature anatomy, neon harsh lines, multiple particles, lens flares with rays, geometric shapes, oversaturation.",
+  "refs": [],
+  "provider": "zenmux",
+  "model": "openai/gpt-image-2",
+  "base_url": "https://zenmux.ai/api/vertex-ai",
+  "output_path": "/root/workspace/LingMuDongFu/web/public/assets/lydt/fx/fx-firefly-sprite.png",
+  "response_text": ""
+}

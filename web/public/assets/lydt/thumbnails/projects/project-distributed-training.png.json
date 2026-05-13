@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-05-13T10:10:24",
+  "type": "wide",
+  "aspect_ratio": "16:9",
+  "prompt": "Reference image role: the previous project covers define the style — dark ink-green base, glowing tech motif, restrained Eastern xianxia + tech fusion. Same color palette and mood.\n\nCreate a 16:9 project cover image for \"Distributed Training 工程实践\". NO text, NO logos.\n\nSubject: A global star-network — many small luminous node points connected by glowing thin lines forming an organic web, spanning across the frame like a constellation map. Some nodes brighter than others (representing parameter servers). A faint sphere-like spatial hint suggests global topology. Soft firefly cyan glow on key nodes.\n\nComposition: network spans the whole frame but denser on the right, left side has fewer connections leaving quiet space for text. Cinematic, professional.\n\nColor HEX: base #0B211D, glow #9CF0BD, gold #C0A35D, jade #6A9580.\n\nAvoid: company logos, readable text/numbers, characters, world map continents, neon purple, red, cartoonish, MMORPG.",
+  "refs": [
+    "/root/workspace/LingMuDongFu/web/public/assets/lydt/thumbnails/projects/project-megatron-parallel.png"
+  ],
+  "provider": "zenmux",
+  "model": "openai/gpt-image-2",
+  "base_url": "https://zenmux.ai/api/vertex-ai",
+  "output_path": "/root/workspace/LingMuDongFu/web/public/assets/lydt/thumbnails/projects/project-distributed-training.png",
+  "response_text": ""
+}

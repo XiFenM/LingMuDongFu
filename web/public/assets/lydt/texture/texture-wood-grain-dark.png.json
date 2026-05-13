@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-05-13T09:36:13",
+  "type": "square",
+  "aspect_ratio": "1:1",
+  "prompt": "Tileable seamless texture for an Eastern xianxia portfolio website. Square format, designed to repeat without visible seams.\n\nSubject: Dark aged wood grain — like a moonlit ancient cedar plank, with natural longitudinal fibers, occasional faint knots, very subtle hints of dark moss-green tint. Base color around #24180F to #160F0A. Grain runs vertically. Low contrast, suitable as background under cards and headers. No obvious central feature, no rings, no cuts, no nails, no labels.\n\nPhotographic realism, organic structure, refined Eastern wood like temple beams aged 100 years. Subtle warm gold highlights along the grain barely visible.\n\nAvoid: bright colors, knots that draw attention, central focal points, text, watermarks, modern processed lumber look, oversaturation.",
+  "refs": [],
+  "provider": "zenmux",
+  "model": "openai/gpt-image-2",
+  "base_url": "https://zenmux.ai/api/vertex-ai",
+  "output_path": "/root/workspace/LingMuDongFu/web/public/assets/lydt/texture/texture-wood-grain-dark.png",
+  "response_text": ""
+}

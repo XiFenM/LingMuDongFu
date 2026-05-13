@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-05-13T12:06:34",
+  "type": "wide",
+  "aspect_ratio": "16:9",
+  "prompt": "Reference image role: the previous blog thumbnail (mountains + glowing cube) defines the style — Chinese ink-wash painting fused with one soft modern tech metaphor, warm muted parchment-green background, low contrast, painterly soft edges. PRESERVE this style exactly.\n\nCreate a 16:9 blog thumbnail for article \"PyTorch 调度器干货大合集 / Dispatcher\". NO text.\n\nSubject: Ink-wash painting of a quiet bamboo grove on the left and an open ancient unfurled scroll in the foreground center, painted in soft grey-black brush strokes. From the scroll, multiple thin golden #C0A35D branching paths emerge upward and diverge like a dispatch tree, with tiny firefly cyan #9CF0BD dots at each branch tip. Mist drifts in the background.\n\nStyle: Brush-painted, atmospheric, low contrast, suggests \"ancient document reveals modern routing paths\". Same warm parchment-green background as reference.\n\nColor HEX: ink black #1a1d1c, mist grey #3a4540, paper warm #2a3128, cyan glow #9CF0BD, gold lines #C0A35D.\n\nAvoid: real text, characters, photographic realism, neon, red, purple, modern digital illustration, cartoonish.",
+  "refs": [
+    "/root/workspace/LingMuDongFu/web/public/assets/lydt/thumbnails/blog/blog-ink-triton-cuda.png"
+  ],
+  "provider": "zenmux",
+  "model": "openai/gpt-image-2",
+  "base_url": "https://zenmux.ai/api/vertex-ai",
+  "output_path": "/root/workspace/LingMuDongFu/web/public/assets/lydt/thumbnails/blog/blog-ink-pytorch-dispatcher.png",
+  "response_text": ""
+}

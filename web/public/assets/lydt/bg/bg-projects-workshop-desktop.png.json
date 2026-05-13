@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-05-13T09:51:43",
+  "type": "wide",
+  "aspect_ratio": "16:9",
+  "prompt": "Reference image role: the project list prototype defines the visual DNA — moonlit tree-hollow workshop with a glowing portal-like round window, ancient runes/seals etched on bark, warm lanterns, restrained Eastern xianxia mood with a slight forge/工坊 feeling. PRESERVE this DNA. Layout (right tree-cave with round runic portal + left dark area) must mirror prototype.\n\nCreate a wide hero background for the project list page header of \"灵木洞天 / LYDT\". 16:9 wide format.\n\nComposition:\n- Right 55%: A workshop nook inside an ancient tree hollow. A large circular runic portal-window made of carved wood with faint golden glyphs and inner blue-cyan glow #6A9580 over distant misty mountains. Stone stairs descending toward the portal. Several warm-glowing lanterns hanging on both sides. Wooden hanging tools/scrolls on the right wall. Drifting firefly cyan motes.\n- Left 45%: Dark, atmospheric, intentionally quiet — reserved for \"项目集 / PROJECTS\" title, description, and a small round compass/年轮罗盘 ornament to be overlaid by HTML. Faint root tendrils. NO text, NO UI in this image.\n\nColor HEX: base #0B211D, wood #24180F, moss #33513A, lantern #ddb87a, portal glow #6A9580, firefly #9CF0BD, gold #C0A35D.\n\nAvoid: people, text, browser frames, navigation, characters, oversaturated, neon, purple, red, MMORPG, cartoonish.",
+  "refs": [
+    "/root/workspace/LingMuDongFu/design/pages/项目列表页.png"
+  ],
+  "provider": "zenmux",
+  "model": "openai/gpt-image-2",
+  "base_url": "https://zenmux.ai/api/vertex-ai",
+  "output_path": "/root/workspace/LingMuDongFu/web/public/assets/lydt/bg/bg-projects-workshop-desktop.png",
+  "response_text": ""
+}

@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-05-13T12:05:00",
+  "type": "wide",
+  "aspect_ratio": "16:9",
+  "prompt": "Reference image role: the blog list prototype shows our blog thumbnail style — small ink-wash paintings fused with technical metaphors, dark muted palette, painterly soft edges, suitable as 16:9 thumbnails on dark cards. PRESERVE this style.\n\nCreate a 16:9 blog thumbnail for article \"Triton 与 CUDA 核心原理整理\". NO text.\n\nSubject: Traditional Chinese ink-wash painting style (水墨写意): two layered ink-wash mountain ranges fading into mist, and floating between them in the upper-right a single softly glowing translucent cube made of faint cyan #9CF0BD light and golden grid lines #C0A35D suggesting a GPU compute kernel. The mountains are painted in soft grey-black brush strokes on warm-aged-paper ground.\n\nStyle: Brush-painted, soft, atmospheric, low contrast, suggests \"ancient wisdom meets modern compute\". Background warm parchment-ish #2a3128 (slightly green-tinted so it sits well on dark cards). The cube is the only modern element — everything else is ink-wash.\n\nColor HEX: ink black #1a1d1c, mist grey #3a4540, paper warm #2a3128, cyan glow #9CF0BD, gold lines #C0A35D.\n\nAvoid: real text, characters, photographic realism, oversaturated colors, neon, red, purple, modern digital illustration, cartoonish, MMORPG game UI.",
+  "refs": [
+    "/root/workspace/LingMuDongFu/design/pages/博客列表页.png"
+  ],
+  "provider": "zenmux",
+  "model": "openai/gpt-image-2",
+  "base_url": "https://zenmux.ai/api/vertex-ai",
+  "output_path": "/root/workspace/LingMuDongFu/web/public/assets/lydt/thumbnails/blog/blog-ink-triton-cuda.png",
+  "response_text": ""
+}

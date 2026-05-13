@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-05-13T12:23:35",
+  "type": "wide",
+  "aspect_ratio": "16:9",
+  "prompt": "Reference image role: same as previous blog thumbnails — Chinese ink-wash painting fused with one soft modern tech metaphor, warm parchment-green background, low contrast, painterly soft edges. PRESERVE this style exactly.\n\nCreate a 16:9 blog thumbnail for article \"TorchScript / FX / torch.compile 关系总结\". NO text.\n\nSubject: Ink-wash painting of three ancient stone temple gates aligned in perspective, leading inward through misty courtyards (suggesting three sequential compilation stages). Painted in soft grey-black brush strokes. Above each gate, a small floating golden #C0A35D node connected by a thin line to the next. A faint firefly cyan #9CF0BD glow at the farthest gate.\n\nStyle: Brush-painted, atmospheric, low contrast, suggests \"passing through three stages of transformation\". Same warm parchment-green background.\n\nColor HEX: ink black #1a1d1c, mist grey #3a4540, paper warm #2a3128, cyan #9CF0BD, gold #C0A35D.\n\nAvoid: real text, characters, neon, red, purple, cartoonish, photographic, modern.",
+  "refs": [
+    "/root/workspace/LingMuDongFu/web/public/assets/lydt/thumbnails/blog/blog-ink-triton-cuda.png"
+  ],
+  "provider": "zenmux",
+  "model": "openai/gpt-image-2",
+  "base_url": "https://zenmux.ai/api/vertex-ai",
+  "output_path": "/root/workspace/LingMuDongFu/web/public/assets/lydt/thumbnails/blog/blog-ink-torchscript-fx-compile.png",
+  "response_text": ""
+}

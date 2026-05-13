@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-05-13T09:37:42",
+  "type": "square",
+  "aspect_ratio": "1:1",
+  "prompt": "Tileable seamless texture. Square format, designed to repeat without visible seams.\n\nSubject: Warm-toned aged Chinese rice paper (宣纸) — natural fibrous handmade paper, slight ivory cream #F0E5C9 to warm parchment #D8C7A2 base, with visible long randomly-scattered plant fibers, tiny specks of darker brown debris, very subtle stains where the paper aged. Soft natural lighting, no shadows. Flat top-down view.\n\nThe texture should be uniform enough that paper cards can be cut from anywhere in it without showing seams or focal points. Used as fill for blog article cards and resume info cards.\n\nAvoid: any stamps, ink writing, signatures, watermarks, holes, tears with focal interest, bright white, modern printer paper, glossy finish, plastic look.",
+  "refs": [],
+  "provider": "zenmux",
+  "model": "openai/gpt-image-2",
+  "base_url": "https://zenmux.ai/api/vertex-ai",
+  "output_path": "/root/workspace/LingMuDongFu/web/public/assets/lydt/texture/texture-paper-fiber-warm.png",
+  "response_text": ""
+}

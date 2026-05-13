@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-05-13T10:11:47",
+  "type": "wide",
+  "aspect_ratio": "16:9",
+  "prompt": "Reference image role: the previous project covers define the style — dark ink-green base, glowing tech motif, restrained Eastern xianxia + tech fusion. Same color palette and mood.\n\nCreate a 16:9 project cover image for \"PyTorch Dispatcher 调度机制大全\". NO text, NO logos.\n\nSubject: A glowing bonsai-tree-like dispatch graph — a single golden trunk in the center splitting into many fine branching paths upward, each branch ending in a small luminous node, suggesting routing/dispatching. Subtle hexagonal or runic overlay etched in the background. Some branches dim, some brightly lit, hinting at active dispatch paths.\n\nComposition: tree subject center-right 60%, left quiet for text. Cinematic, professional.\n\nColor HEX: base #0B211D, glow #9CF0BD, gold #C0A35D, jade #6A9580.\n\nAvoid: company logos, readable text, characters, neon purple, red, cartoonish, MMORPG, real plant photograph.",
+  "refs": [
+    "/root/workspace/LingMuDongFu/web/public/assets/lydt/thumbnails/projects/project-megatron-parallel.png"
+  ],
+  "provider": "zenmux",
+  "model": "openai/gpt-image-2",
+  "base_url": "https://zenmux.ai/api/vertex-ai",
+  "output_path": "/root/workspace/LingMuDongFu/web/public/assets/lydt/thumbnails/projects/project-pytorch-dispatcher.png",
+  "response_text": ""
+}

@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-05-13T09:44:01",
+  "type": "wide",
+  "aspect_ratio": "16:9",
+  "prompt": "Reference image role: the blog list prototype defines the visual DNA — dark ink-green palette, moonlit tree-hollow library, round paper moon-window with cool moonlight, mossy ancient wood, warm lanterns, restrained Eastern xianxia. PRESERVE this DNA. Layout (left dark text area + right tree-cave with round window and bookshelves) must mirror the prototype.\n\nCreate a wide hero background for the blog list page header of \"灵木洞天 / LYDT\". 16:9 wide format.\n\nComposition:\n- Right 55%: A library nook inside a tree hollow — ancient wooden bookshelves built into the curved walls with stacked scrolls, traditional Chinese stitched books, and small celadon objects. A large round paper moon-window high on the back wall glowing cool blue-white moonlight #b8d4e0 over a distant landscape. One warm-glowing lantern hanging near the window. Drifting firefly motes.\n- Left 45%: Dark, atmospheric, intentionally quiet region with subtle mossy roots — reserved for \"藏书枝阁\" page title, breadcrumb, search bar, and category tabs to be overlaid by HTML. NO text, NO UI in this image.\n\nColor HEX: base #0B211D, wood #24180F, moss #33513A, lantern #ddb87a, moonlight #b8d4e0, firefly #9CF0BD, gold trim #C0A35D.\n\nAvoid: people, faces, text, browser chrome, hanging signs with characters, navigation, neon, purple, red, MMORPG, cartoonish, oversaturated.",
+  "refs": [
+    "/root/workspace/LingMuDongFu/design/pages/博客列表页.png"
+  ],
+  "provider": "zenmux",
+  "model": "openai/gpt-image-2",
+  "base_url": "https://zenmux.ai/api/vertex-ai",
+  "output_path": "/root/workspace/LingMuDongFu/web/public/assets/lydt/bg/bg-blog-branch-library-desktop.png",
+  "response_text": ""
+}
