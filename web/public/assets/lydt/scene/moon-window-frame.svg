@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="420" viewBox="0 0 420 420" fill="none">
+  <defs>
+    <radialGradient id="moon" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(210 210) scale(188)">
+      <stop stop-color="#B8D4E0" stop-opacity=".28"/>
+      <stop offset=".68" stop-color="#0B211D" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#0B211D" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="210" cy="210" r="190" fill="url(#moon)" stroke="#C0A35D" stroke-opacity=".58" stroke-width="3"/>
+  <circle cx="210" cy="210" r="166" stroke="#E0CC88" stroke-opacity=".24" stroke-width="2"/>
+  <path d="M210 27v366M27 210h366M81 82l258 258M339 82L81 340" stroke="#E0CC88" stroke-opacity=".16"/>
+  <path d="M105 44c66 22 144 22 210 0M105 376c66-22 144-22 210 0M44 105c22 66 22 144 0 210M376 105c-22 66-22 144 0 210" stroke="#C0A35D" stroke-opacity=".32" stroke-linecap="round"/>
+</svg>

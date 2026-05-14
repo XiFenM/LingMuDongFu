@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-05-14T01:53:22",
+  "type": "wide",
+  "aspect_ratio": "16:9",
+  "prompt": "Reference image role: existing project cover defines exact visual DNA: dark emerald cave atmosphere, cyan firefly glow, gold circuits, premium Chinese fantasy + modern GPU computing. Create an alternate 16:9 project thumbnail for CUDA Softmax Kernel. NO text. Subject: a translucent jade GPU core floating above a carved wooden workbench, surrounded by circular warp-level reduction rings and tiny golden memory lanes, with a soft cyan center glow. Keep low contrast, atmospheric mist, elegant dark green background. Colors: #071714 #0f2a24 #9CF0BD #C0A35D. Avoid words, logos, human figures, neon purple, cartoon, photographic UI.",
+  "refs": [
+    "/root/workspace/LingMuDongFu/web/public/assets/lydt/thumbnails/projects/project-cuda-softmax.png"
+  ],
+  "provider": "zenmux",
+  "model": "openai/gpt-image-2",
+  "base_url": "https://zenmux.ai/api/vertex-ai",
+  "output_path": "/root/workspace/LingMuDongFu/web/public/assets/lydt/alternates/projects/project-cuda-softmax-alt-a.png",
+  "response_text": ""
+}

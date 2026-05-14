@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-05-14T01:55:47",
+  "type": "wide",
+  "aspect_ratio": "16:9",
+  "prompt": "Reference image role: existing project covers define style: dark emerald cave, cyber-jade glow, gold data trails, Chinese fantasy-tech, soft mist. Create an alternate 16:9 project thumbnail for LLM Inference optimization. NO text. Subject: a stack of translucent jade memory tablets around a small moon lantern, golden token streams entering and leaving, cyan KV-cache sparks preserved in rows, quiet tree hollow background. Premium, low contrast, cinematic. Avoid words, logos, humans, neon purple, flat cartoon.",
+  "refs": [
+    "/root/workspace/LingMuDongFu/web/public/assets/lydt/thumbnails/projects/project-llm-inference.png"
+  ],
+  "provider": "zenmux",
+  "model": "openai/gpt-image-2",
+  "base_url": "https://zenmux.ai/api/vertex-ai",
+  "output_path": "/root/workspace/LingMuDongFu/web/public/assets/lydt/alternates/projects/project-llm-inference-alt-a.png",
+  "response_text": ""
+}

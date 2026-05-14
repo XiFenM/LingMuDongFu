@@ -1,0 +1,54 @@
+{
+  "reference": "design/pages/项目列表页.png",
+  "candidate": "/tmp/lydt-verify/pass2-1440/projects.png",
+  "reference_size": [
+    1024,
+    1536
+  ],
+  "candidate_size_original": [
+    1440,
+    1998
+  ],
+  "candidate_size_compared": [
+    1024,
+    1536
+  ],
+  "regions": [
+    {
+      "name": "full",
+      "size": [
+        1024,
+        1536
+      ],
+      "rms_diff": 33.918,
+      "mean_abs_diff": 18.673,
+      "candidate": "/tmp/lydt-verify/pass2-compare/projects-full-candidate.png",
+      "diff": "/tmp/lydt-verify/pass2-compare/projects-full-diff.png",
+      "heatmap": "/tmp/lydt-verify/pass2-compare/projects-full-heatmap.png"
+    },
+    {
+      "name": "hero",
+      "size": [
+        1024,
+        420
+      ],
+      "rms_diff": 37.362,
+      "mean_abs_diff": 18.031,
+      "candidate": "/tmp/lydt-verify/pass2-compare/projects-hero-candidate.png",
+      "diff": "/tmp/lydt-verify/pass2-compare/projects-hero-diff.png",
+      "heatmap": "/tmp/lydt-verify/pass2-compare/projects-hero-heatmap.png"
+    },
+    {
+      "name": "grid",
+      "size": [
+        1024,
+        680
+      ],
+      "rms_diff": 33.263,
+      "mean_abs_diff": 19.466,
+      "candidate": "/tmp/lydt-verify/pass2-compare/projects-grid-candidate.png",
+      "diff": "/tmp/lydt-verify/pass2-compare/projects-grid-diff.png",
+      "heatmap": "/tmp/lydt-verify/pass2-compare/projects-grid-heatmap.png"
+    }
+  ]
+}

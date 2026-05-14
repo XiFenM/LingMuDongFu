@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke="#e0cc88" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" >
+<defs><radialGradient id="g" cx="50%" cy="45%" r="55%"><stop offset="0" stop-color="#e8e2cf"/><stop offset=".62" stop-color="#c0a35d"/><stop offset="1" stop-color="#263d2d"/></radialGradient></defs>
+<circle cx="64" cy="64" r="54" fill="#0b211d" stroke="#e0cc88" stroke-width="2"/>
+<circle cx="64" cy="64" r="43" fill="none" stroke="#9f8243" stroke-width="1.5" opacity=".75"/>
+<circle cx="64" cy="64" r="32" fill="none" stroke="#b8d4e0" stroke-width="1.2" opacity=".46"/>
+<path d="M64 20c5 15-15 20-3 35 9 11 25 9 29 27" fill="none" stroke="#c0a35d" stroke-width="1.5" opacity=".5"/>
+<path d="M38 92c14-19 21-30 51-44" fill="none" stroke="#9cf0bd" stroke-width="1.4" opacity=".5"/>
+<text x="64" y="72" text-anchor="middle" font-family="Georgia,serif" font-size="22" letter-spacing="2" fill="url(#g)" stroke="none">LYDT</text>
+</svg>

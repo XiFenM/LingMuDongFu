@@ -1,0 +1,66 @@
+{
+  "reference": "design/pages/项目列表页.png",
+  "candidate": "artifacts/ui-screenshots/2026-05-14-prototype-verify/screenshots/projects-list.png",
+  "reference_size": [
+    1024,
+    1536
+  ],
+  "candidate_size_original": [
+    1024,
+    1536
+  ],
+  "candidate_size_compared": [
+    1024,
+    1536
+  ],
+  "regions": [
+    {
+      "name": "full",
+      "size": [
+        1024,
+        1536
+      ],
+      "rms_diff": 38.047,
+      "mean_abs_diff": 20.506,
+      "candidate": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/projects-list/projects-list-full-candidate.png",
+      "diff": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/projects-list/projects-list-full-diff.png",
+      "heatmap": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/projects-list/projects-list-full-heatmap.png"
+    },
+    {
+      "name": "hero",
+      "size": [
+        1024,
+        390
+      ],
+      "rms_diff": 42.553,
+      "mean_abs_diff": 21.218,
+      "candidate": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/projects-list/projects-list-hero-candidate.png",
+      "diff": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/projects-list/projects-list-hero-diff.png",
+      "heatmap": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/projects-list/projects-list-hero-heatmap.png"
+    },
+    {
+      "name": "filters",
+      "size": [
+        1024,
+        210
+      ],
+      "rms_diff": 25.973,
+      "mean_abs_diff": 13.533,
+      "candidate": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/projects-list/projects-list-filters-candidate.png",
+      "diff": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/projects-list/projects-list-filters-diff.png",
+      "heatmap": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/projects-list/projects-list-filters-heatmap.png"
+    },
+    {
+      "name": "grid",
+      "size": [
+        1024,
+        690
+      ],
+      "rms_diff": 36.817,
+      "mean_abs_diff": 21.819,
+      "candidate": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/projects-list/projects-list-grid-candidate.png",
+      "diff": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/projects-list/projects-list-grid-diff.png",
+      "heatmap": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/projects-list/projects-list-grid-heatmap.png"
+    }
+  ]
+}

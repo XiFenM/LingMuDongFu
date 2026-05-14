@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-05-14T02:45:07",
+  "type": "square",
+  "aspect_ratio": "1:1",
+  "prompt": "Reference image role: existing avatar placeholder defines mood: professional Asian male AI infrastructure engineer, dark emerald background, soft natural lighting. Create a polished square resume avatar asset, generic placeholder not an exact real person. Head-and-shoulders portrait, calm focused expression, short clean hair, dark green/charcoal sweater, warm but restrained. Background deep ink-green #0B211D with subtle bokeh firefly glow, no text, no logo. Avoid fantasy costume, anime, beauty filter, glasses, beard, watermark.",
+  "refs": [
+    "/root/workspace/LingMuDongFu/web/public/assets/lydt/resume/avatar-placeholder.png"
+  ],
+  "provider": "zenmux",
+  "model": "openai/gpt-image-2",
+  "base_url": "https://zenmux.ai/api/vertex-ai",
+  "output_path": "/root/workspace/LingMuDongFu/web/public/assets/lydt/resume/avatar-yinjie.png",
+  "response_text": ""
+}

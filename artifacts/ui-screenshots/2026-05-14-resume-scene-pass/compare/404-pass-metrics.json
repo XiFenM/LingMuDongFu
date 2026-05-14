@@ -1,0 +1,30 @@
+{
+  "reference": "design/pages/404页.png",
+  "candidate": "/tmp/lydt-2026-05-14-resume-pass/404.png",
+  "reference_size": [
+    1122,
+    1402
+  ],
+  "candidate_size_original": [
+    1440,
+    1715
+  ],
+  "candidate_size_compared": [
+    1122,
+    1402
+  ],
+  "regions": [
+    {
+      "name": "full",
+      "size": [
+        1122,
+        1402
+      ],
+      "rms_diff": 58.34,
+      "mean_abs_diff": 32.661,
+      "candidate": "/tmp/lydt-2026-05-14-resume-pass/compare/404-pass-full-candidate.png",
+      "diff": "/tmp/lydt-2026-05-14-resume-pass/compare/404-pass-full-diff.png",
+      "heatmap": "/tmp/lydt-2026-05-14-resume-pass/compare/404-pass-full-heatmap.png"
+    }
+  ]
+}

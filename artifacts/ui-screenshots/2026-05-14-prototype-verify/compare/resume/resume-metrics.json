@@ -1,0 +1,66 @@
+{
+  "reference": "design/pages/简历页.png",
+  "candidate": "artifacts/ui-screenshots/2026-05-14-prototype-verify/screenshots/resume.png",
+  "reference_size": [
+    1024,
+    1536
+  ],
+  "candidate_size_original": [
+    1024,
+    1536
+  ],
+  "candidate_size_compared": [
+    1024,
+    1536
+  ],
+  "regions": [
+    {
+      "name": "full",
+      "size": [
+        1024,
+        1536
+      ],
+      "rms_diff": 43.345,
+      "mean_abs_diff": 21.336,
+      "candidate": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/resume/resume-full-candidate.png",
+      "diff": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/resume/resume-full-diff.png",
+      "heatmap": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/resume/resume-full-heatmap.png"
+    },
+    {
+      "name": "hero",
+      "size": [
+        1024,
+        390
+      ],
+      "rms_diff": 53.085,
+      "mean_abs_diff": 27.996,
+      "candidate": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/resume/resume-hero-candidate.png",
+      "diff": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/resume/resume-hero-diff.png",
+      "heatmap": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/resume/resume-hero-heatmap.png"
+    },
+    {
+      "name": "profile",
+      "size": [
+        340,
+        760
+      ],
+      "rms_diff": 46.102,
+      "mean_abs_diff": 22.517,
+      "candidate": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/resume/resume-profile-candidate.png",
+      "diff": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/resume/resume-profile-diff.png",
+      "heatmap": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/resume/resume-profile-heatmap.png"
+    },
+    {
+      "name": "content",
+      "size": [
+        684,
+        760
+      ],
+      "rms_diff": 36.209,
+      "mean_abs_diff": 17.879,
+      "candidate": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/resume/resume-content-candidate.png",
+      "diff": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/resume/resume-content-diff.png",
+      "heatmap": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/resume/resume-content-heatmap.png"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "archived_at": "2026-05-14T02:32:33Z",
+  "archive_root": "artifacts/ui-screenshots/2026-05-14-assets-pass",
+  "description": "UI screenshots, asset preview contact sheets, and draw-ui compare outputs archived from /tmp after the 2026-05-14 asset pass.",
+  "moved_count": 37,
+  "moves": [
+    {
+      "from": "/tmp/lydt-home-assets.png",
+      "to": "artifacts/ui-screenshots/2026-05-14-assets-pass/screenshots/lydt-home-assets.png"
+    },
+    {
+      "from": "/tmp/lydt-projects-assets.png",
+      "to": "artifacts/ui-screenshots/2026-05-14-assets-pass/screenshots/lydt-projects-assets.png"
+    },
+    {
+      "from": "/tmp/lydt-blog-assets.png",
+      "to": "artifacts/ui-screenshots/2026-05-14-assets-pass/screenshots/lydt-blog-assets.png"
+    },
+    {
+      "from": "/tmp/lydt-project-detail-assets.png",
+      "to": "artifacts/ui-screenshots/2026-05-14-assets-pass/screenshots/lydt-project-detail-assets.png"
+    },
+    {
+      "from": "/tmp/lydt-projects.png",
+      "to": "artifacts/ui-screenshots/2026-05-14-assets-pass/screenshots/lydt-projects.png"
+    },
+    {
+      "from": "/tmp/lydt-assets-bg.jpg",
+      "to": "artifacts/ui-screenshots/2026-05-14-assets-pass/asset-previews/lydt-assets-bg.jpg"
+    },
+    {
+      "from": "/tmp/lydt-assets-blog.jpg",
+      "to": "artifacts/ui-screenshots/2026-05-14-assets-pass/asset-previews/lydt-assets-blog.jpg"
+    },
+    {
+      "from": "/tmp/lydt-assets-projects.jpg",
+      "to": "artifacts/ui-screenshots/2026-05-14-assets-pass/asset-previews/lydt-assets-projects.jpg"
+    },
+    {
+      "from": "/tmp/lydt-project-alts.jpg",
+      "to": "artifacts/ui-screenshots/2026-05-14-assets-pass/asset-previews/lydt-project-alts.jpg"
+    },
+    {
+      "from": "/tmp/lydt-blog-alts.jpg",
+      "to": "artifacts/ui-screenshots/2026-05-14-assets-pass/asset-previews/lydt-blog-alts.jpg"
+    },
+    {
+      "from": "/tmp/lydt-new-assets.jpg",
+      "to": "artifacts/ui-screenshots/2026-05-14-assets-pass/asset-previews/lydt-new-assets.jpg"
+    },
+    {
+      "from": "/tmp/vine-alpha-preview.png",
+      "to": "artifacts/ui-screenshots/2026-05-14-assets-pass/asset-previews/vine-alpha-preview.png"
+    },
+    {
+      "from": "/tmp/lydt-assets-compare/blog-assets-full-candidate.png",
+      "to": "artifacts/ui-screenshots/2026-05-14-assets-pass/compare-assets/blog-assets-full-candidate.png"
+    },
+    {
+      "from": "/tmp/lydt-assets-compare/blog-assets-full-diff.png",
+      "to": "artifacts/ui-screenshots/2026-05-14-assets-pass/compare-assets/blog-assets-full-diff.png"
+    },
+    {
+      "from": "/tmp/lydt-assets-compare/blog-assets-full-heatmap.png",
+      "to": "artifacts/ui-screenshots/2026-05-14-assets-pass/compare-assets/blog-assets-full-heatmap.png"
+    },
+    {
+      "from": "/tmp/lydt-assets-compare/blog-assets-metrics.json",
+      "to": "artifacts/ui-screenshots/2026-05-14-assets-pass/compare-assets/blog-assets-metrics.json"
+    },
+    {
+      "from": "/tmp/lydt-assets-compare/home-assets-full-candidate.png",
+      "to": "artifacts/ui-screenshots/2026-05-14-assets-pass/compare-assets/home-assets-full-candidate.png"
+    },
+    {
+      "from": "/tmp/lydt-assets-compare/home-assets-full-diff.png",
+      "to": "artifacts/ui-screenshots/2026-05-14-assets-pass/compare-assets/home-assets-full-diff.png"
+    },
+    {
+      "from": "/tmp/lydt-assets-compare/home-assets-full-heatmap.png",
+      "to": "artifacts/ui-screenshots/2026-05-14-assets-pass/compare-assets/home-assets-full-heatmap.png"
+    },
+    {
+      "from": "/tmp/lydt-assets-compare/home-assets-metrics.json",
+      "to": "artifacts/ui-screenshots/2026-05-14-assets-pass/compare-assets/home-assets-metrics.json"
+    },
+    {
+      "from": "/tmp/lydt-assets-compare/project-detail-assets-full-candidate.png",
+      "to": "artifacts/ui-screenshots/2026-05-14-assets-pass/compare-assets/project-detail-assets-full-candidate.png"
+    },
+    {
+      "from": "/tmp/lydt-assets-compare/project-detail-assets-full-diff.png",
+      "to": "artifacts/ui-screenshots/2026-05-14-assets-pass/compare-assets/project-detail-assets-full-diff.png"
+    },
+    {
+      "from": "/tmp/lydt-assets-compare/project-detail-assets-full-heatmap.png",
+      "to": "artifacts/ui-screenshots/2026-05-14-assets-pass/compare-assets/project-detail-assets-full-heatmap.png"
+    },
+    {
+      "from": "/tmp/lydt-assets-compare/project-detail-assets-metrics.json",
+      "to": "artifacts/ui-screenshots/2026-05-14-assets-pass/compare-assets/project-detail-assets-metrics.json"
+    },
+    {
+      "from": "/tmp/lydt-assets-compare/projects-assets-full-candidate.png",
+      "to": "artifacts/ui-screenshots/2026-05-14-assets-pass/compare-assets/projects-assets-full-candidate.png"
+    },
+    {
+      "from": "/tmp/lydt-assets-compare/projects-assets-full-diff.png",
+      "to": "artifacts/ui-screenshots/2026-05-14-assets-pass/compare-assets/projects-assets-full-diff.png"
+    },
+    {
+      "from": "/tmp/lydt-assets-compare/projects-assets-full-heatmap.png",
+      "to": "artifacts/ui-screenshots/2026-05-14-assets-pass/compare-assets/projects-assets-full-heatmap.png"
+    },
+    {
+      "from": "/tmp/lydt-assets-compare/projects-assets-metrics.json",
+      "to": "artifacts/ui-screenshots/2026-05-14-assets-pass/compare-assets/projects-assets-metrics.json"
+    },
+    {
+      "from": "/tmp/lydt-verify/current",
+      "to": "artifacts/ui-screenshots/2026-05-14-assets-pass/previous-verify/current"
+    },
+    {
+      "from": "/tmp/lydt-verify/devfinal",
+      "to": "artifacts/ui-screenshots/2026-05-14-assets-pass/previous-verify/devfinal"
+    },
+    {
+      "from": "/tmp/lydt-verify/devfinal-compare",
+      "to": "artifacts/ui-screenshots/2026-05-14-assets-pass/previous-verify/devfinal-compare"
+    },
+    {
+      "from": "/tmp/lydt-verify/pass2",
+      "to": "artifacts/ui-screenshots/2026-05-14-assets-pass/previous-verify/pass2"
+    },
+    {
+      "from": "/tmp/lydt-verify/pass2-1440",
+      "to": "artifacts/ui-screenshots/2026-05-14-assets-pass/previous-verify/pass2-1440"
+    },
+    {
+      "from": "/tmp/lydt-verify/pass2-1440b",
+      "to": "artifacts/ui-screenshots/2026-05-14-assets-pass/previous-verify/pass2-1440b"
+    },
+    {
+      "from": "/tmp/lydt-verify/pass2-compare",
+      "to": "artifacts/ui-screenshots/2026-05-14-assets-pass/previous-verify/pass2-compare"
+    },
+    {
+      "from": "/tmp/lydt-verify/pass2-compare-b",
+      "to": "artifacts/ui-screenshots/2026-05-14-assets-pass/previous-verify/pass2-compare-b"
+    },
+    {
+      "from": "/tmp/lydt-verify/prod",
+      "to": "artifacts/ui-screenshots/2026-05-14-assets-pass/previous-verify/prod"
+    }
+  ]
+}

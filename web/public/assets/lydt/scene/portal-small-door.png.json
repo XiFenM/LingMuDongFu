@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-05-14T02:48:41",
+  "type": "square",
+  "aspect_ratio": "1:1",
+  "prompt": "Reference image role: 404 tree-hole background defines style: unfinished tree hollow, moonlit path, small lantern, mysterious but quiet. Create one square reusable scene asset. NO text. Subject: a tiny glowing wooden portal door embedded in a mossy tree root, with warm lantern light and cyan fireflies, dark emerald cave surroundings, generous padding. Avoid people, signs, readable text, purple neon, cartoon.",
+  "refs": [
+    "/root/workspace/LingMuDongFu/web/public/assets/lydt/bg/bg-404-unfinished-tree-hole-desktop.png"
+  ],
+  "provider": "zenmux",
+  "model": "openai/gpt-image-2",
+  "base_url": "https://zenmux.ai/api/vertex-ai",
+  "output_path": "/root/workspace/LingMuDongFu/web/public/assets/lydt/scene/portal-small-door.png",
+  "response_text": ""
+}

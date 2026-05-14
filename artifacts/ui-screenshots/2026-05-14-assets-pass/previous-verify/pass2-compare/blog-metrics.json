@@ -1,0 +1,54 @@
+{
+  "reference": "design/pages/博客列表页.png",
+  "candidate": "/tmp/lydt-verify/pass2-1440/blog.png",
+  "reference_size": [
+    941,
+    1672
+  ],
+  "candidate_size_original": [
+    1440,
+    2419
+  ],
+  "candidate_size_compared": [
+    941,
+    1672
+  ],
+  "regions": [
+    {
+      "name": "full",
+      "size": [
+        941,
+        1672
+      ],
+      "rms_diff": 51.938,
+      "mean_abs_diff": 30.205,
+      "candidate": "/tmp/lydt-verify/pass2-compare/blog-full-candidate.png",
+      "diff": "/tmp/lydt-verify/pass2-compare/blog-full-diff.png",
+      "heatmap": "/tmp/lydt-verify/pass2-compare/blog-full-heatmap.png"
+    },
+    {
+      "name": "hero",
+      "size": [
+        941,
+        360
+      ],
+      "rms_diff": 45.391,
+      "mean_abs_diff": 23.194,
+      "candidate": "/tmp/lydt-verify/pass2-compare/blog-hero-candidate.png",
+      "diff": "/tmp/lydt-verify/pass2-compare/blog-hero-diff.png",
+      "heatmap": "/tmp/lydt-verify/pass2-compare/blog-hero-heatmap.png"
+    },
+    {
+      "name": "archive",
+      "size": [
+        941,
+        600
+      ],
+      "rms_diff": 37.005,
+      "mean_abs_diff": 23.037,
+      "candidate": "/tmp/lydt-verify/pass2-compare/blog-archive-candidate.png",
+      "diff": "/tmp/lydt-verify/pass2-compare/blog-archive-diff.png",
+      "heatmap": "/tmp/lydt-verify/pass2-compare/blog-archive-heatmap.png"
+    }
+  ]
+}

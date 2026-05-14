@@ -1,0 +1,30 @@
+{
+  "reference": "design/pages/404页.png",
+  "candidate": "/tmp/lydt-verify/pass2-1440b/404.png",
+  "reference_size": [
+    1122,
+    1402
+  ],
+  "candidate_size_original": [
+    1440,
+    1402
+  ],
+  "candidate_size_compared": [
+    1122,
+    1402
+  ],
+  "regions": [
+    {
+      "name": "full",
+      "size": [
+        1122,
+        1402
+      ],
+      "rms_diff": 47.318,
+      "mean_abs_diff": 30.571,
+      "candidate": "/tmp/lydt-verify/pass2-compare-b/404-full-candidate.png",
+      "diff": "/tmp/lydt-verify/pass2-compare-b/404-full-diff.png",
+      "heatmap": "/tmp/lydt-verify/pass2-compare-b/404-full-heatmap.png"
+    }
+  ]
+}

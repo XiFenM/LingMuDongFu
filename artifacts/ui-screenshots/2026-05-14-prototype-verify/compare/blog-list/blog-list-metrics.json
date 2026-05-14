@@ -1,0 +1,78 @@
+{
+  "reference": "design/pages/博客列表页.png",
+  "candidate": "artifacts/ui-screenshots/2026-05-14-prototype-verify/screenshots/blog-list.png",
+  "reference_size": [
+    941,
+    1672
+  ],
+  "candidate_size_original": [
+    941,
+    1672
+  ],
+  "candidate_size_compared": [
+    941,
+    1672
+  ],
+  "regions": [
+    {
+      "name": "full",
+      "size": [
+        941,
+        1672
+      ],
+      "rms_diff": 77.371,
+      "mean_abs_diff": 51.716,
+      "candidate": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/blog-list/blog-list-full-candidate.png",
+      "diff": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/blog-list/blog-list-full-diff.png",
+      "heatmap": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/blog-list/blog-list-full-heatmap.png"
+    },
+    {
+      "name": "hero",
+      "size": [
+        941,
+        500
+      ],
+      "rms_diff": 43.932,
+      "mean_abs_diff": 22.103,
+      "candidate": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/blog-list/blog-list-hero-candidate.png",
+      "diff": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/blog-list/blog-list-hero-diff.png",
+      "heatmap": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/blog-list/blog-list-hero-heatmap.png"
+    },
+    {
+      "name": "filters",
+      "size": [
+        941,
+        145
+      ],
+      "rms_diff": 148.836,
+      "mean_abs_diff": 137.964,
+      "candidate": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/blog-list/blog-list-filters-candidate.png",
+      "diff": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/blog-list/blog-list-filters-diff.png",
+      "heatmap": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/blog-list/blog-list-filters-heatmap.png"
+    },
+    {
+      "name": "featured",
+      "size": [
+        941,
+        350
+      ],
+      "rms_diff": 103.338,
+      "mean_abs_diff": 84.056,
+      "candidate": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/blog-list/blog-list-featured-candidate.png",
+      "diff": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/blog-list/blog-list-featured-diff.png",
+      "heatmap": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/blog-list/blog-list-featured-heatmap.png"
+    },
+    {
+      "name": "archive",
+      "size": [
+        941,
+        520
+      ],
+      "rms_diff": 55.535,
+      "mean_abs_diff": 37.617,
+      "candidate": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/blog-list/blog-list-archive-candidate.png",
+      "diff": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/blog-list/blog-list-archive-diff.png",
+      "heatmap": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/blog-list/blog-list-archive-heatmap.png"
+    }
+  ]
+}

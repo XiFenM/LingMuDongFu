@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-05-14T02:04:45",
+  "type": "square",
+  "aspect_ratio": "1:1",
+  "prompt": "Create one standalone decorative card corner asset on a perfectly flat solid #00ff00 chroma-key background for alpha removal. Subject: elegant Chinese fantasy tree vine corner ornament, dark mossy green leaves, thin warm gold linework, tiny cyan firefly dots, shaped like an L corner suitable for a card border. Center it with generous padding. NO text, no shadows touching background, no gradients in background, background exactly uniform #00ff00. Avoid flowers, red, purple, cartoon.",
+  "refs": [],
+  "provider": "zenmux",
+  "model": "openai/gpt-image-2",
+  "base_url": "https://zenmux.ai/api/vertex-ai",
+  "output_path": "/root/workspace/LingMuDongFu/web/public/assets/lydt/decor/decor-vine-corner-source.png",
+  "response_text": ""
+}

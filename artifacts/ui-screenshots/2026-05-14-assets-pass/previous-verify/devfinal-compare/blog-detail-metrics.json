@@ -1,0 +1,30 @@
+{
+  "reference": "design/pages/博客详情页.png",
+  "candidate": "/tmp/lydt-verify/devfinal/blog-detail.png",
+  "reference_size": [
+    1024,
+    1536
+  ],
+  "candidate_size_original": [
+    1440,
+    3491
+  ],
+  "candidate_size_compared": [
+    1024,
+    1536
+  ],
+  "regions": [
+    {
+      "name": "full",
+      "size": [
+        1024,
+        1536
+      ],
+      "rms_diff": 83.755,
+      "mean_abs_diff": 55.219,
+      "candidate": "/tmp/lydt-verify/devfinal-compare/blog-detail-full-candidate.png",
+      "diff": "/tmp/lydt-verify/devfinal-compare/blog-detail-full-diff.png",
+      "heatmap": "/tmp/lydt-verify/devfinal-compare/blog-detail-full-heatmap.png"
+    }
+  ]
+}

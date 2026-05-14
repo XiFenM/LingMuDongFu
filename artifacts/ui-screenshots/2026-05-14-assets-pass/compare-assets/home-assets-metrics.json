@@ -1,0 +1,30 @@
+{
+  "reference": "design/pages/首页(修改年轮后).png",
+  "candidate": "/tmp/lydt-home-assets.png",
+  "reference_size": [
+    887,
+    1774
+  ],
+  "candidate_size_original": [
+    1440,
+    3408
+  ],
+  "candidate_size_compared": [
+    887,
+    1774
+  ],
+  "regions": [
+    {
+      "name": "full",
+      "size": [
+        887,
+        1774
+      ],
+      "rms_diff": 68.322,
+      "mean_abs_diff": 43.153,
+      "candidate": "/tmp/lydt-assets-compare/home-assets-full-candidate.png",
+      "diff": "/tmp/lydt-assets-compare/home-assets-full-diff.png",
+      "heatmap": "/tmp/lydt-assets-compare/home-assets-full-heatmap.png"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "pass": "2026-05-14-asset-pack-pass",
+  "verified": [
+    "npx tsc --noEmit --pretty false",
+    "npm run build",
+    "Playwright screenshots archived"
+  ],
+  "asset_counts": {
+    "icons": 69,
+    "project-detail": 9,
+    "scene": 22,
+    "texture": 8,
+    "fx": 8,
+    "decor": 15,
+    "thumbnails/blog": 12,
+    "thumbnails/projects": 10,
+    "logo": 4,
+    "timeline": 3
+  },
+  "screenshots": [
+    "artifacts/ui-screenshots/2026-05-14-asset-pack-pass/screenshots/blog.png",
+    "artifacts/ui-screenshots/2026-05-14-asset-pack-pass/screenshots/home.png",
+    "artifacts/ui-screenshots/2026-05-14-asset-pack-pass/screenshots/project-detail-cuda.png",
+    "artifacts/ui-screenshots/2026-05-14-asset-pack-pass/screenshots/projects.png"
+  ],
+  "preview": "artifacts/ui-screenshots/2026-05-14-asset-pack-pass/asset-previews/lydt-asset-pack-preview.png"
+}

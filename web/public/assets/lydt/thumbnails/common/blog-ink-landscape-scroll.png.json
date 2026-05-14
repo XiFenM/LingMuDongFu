@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-05-14T02:01:23",
+  "type": "wide",
+  "aspect_ratio": "16:9",
+  "prompt": "Reference image role: existing blog thumbnails define exact style: Chinese ink-wash, warm parchment-green, low contrast misty mountains, grey-black brush painting, tiny cyan firefly, thin gold tech accent. Create a generic 16:9 blog thumbnail fallback. NO text. Subject: a misty mountain landscape with one open blank ancient scroll on a rock, faint gold branch line across the scroll, one cyan glow. Avoid readable text, characters, photos, neon, purple, red, cartoon.",
+  "refs": [
+    "/root/workspace/LingMuDongFu/web/public/assets/lydt/thumbnails/blog/blog-ink-triton-cuda.png"
+  ],
+  "provider": "zenmux",
+  "model": "openai/gpt-image-2",
+  "base_url": "https://zenmux.ai/api/vertex-ai",
+  "output_path": "/root/workspace/LingMuDongFu/web/public/assets/lydt/thumbnails/common/blog-ink-landscape-scroll.png",
+  "response_text": ""
+}

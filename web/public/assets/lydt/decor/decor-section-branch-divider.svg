@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="34" viewBox="0 0 360 34" fill="none">
+  <defs>
+    <linearGradient id="g" x1="0" y1="17" x2="360" y2="17" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C0A35D" stop-opacity="0"/>
+      <stop offset=".18" stop-color="#C0A35D" stop-opacity=".55"/>
+      <stop offset=".5" stop-color="#E0CC88" stop-opacity=".95"/>
+      <stop offset=".82" stop-color="#C0A35D" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#C0A35D" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-15%" y="-120%" width="130%" height="340%">
+      <feGaussianBlur stdDeviation="1.6" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <path d="M8 17c36-2 57-2 91 0 34 2 55 2 81 0 26-2 51-2 83 0 32 2 57 1 89-2" stroke="url(#g)" stroke-width="1.45" stroke-linecap="round" filter="url(#glow)"/>
+  <path d="M136 17c-9-8-16-11-29-11 6 7 14 11 29 11Z" fill="#6A9580" fill-opacity=".55" stroke="#C0A35D" stroke-opacity=".55" stroke-width=".7"/>
+  <path d="M224 17c9-8 16-11 29-11-6 7-14 11-29 11Z" fill="#6A9580" fill-opacity=".55" stroke="#C0A35D" stroke-opacity=".55" stroke-width=".7"/>
+  <path d="M159 17c-6 7-13 10-25 10 6-7 13-10 25-10Z" fill="#456C4E" fill-opacity=".48" stroke="#C0A35D" stroke-opacity=".45" stroke-width=".7"/>
+  <path d="M201 17c6 7 13 10 25 10-6-7-13-10-25-10Z" fill="#456C4E" fill-opacity=".48" stroke="#C0A35D" stroke-opacity=".45" stroke-width=".7"/>
+  <circle cx="180" cy="17" r="3.2" fill="#9CF0BD" filter="url(#glow)"/>
+  <circle cx="180" cy="17" r="8.5" stroke="#C0A35D" stroke-opacity=".45"/>
+</svg>

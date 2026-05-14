@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-05-14T01:58:58",
+  "type": "wide",
+  "aspect_ratio": "16:9",
+  "prompt": "Reference image role: existing blog thumbnails define style: Chinese ink-wash, warm parchment-green, low contrast, misty mountains, subtle cyan/gold tech metaphor. Create alternate 16:9 blog thumbnail for ZeRO 参数分片与 AllGather. NO text. Subject: many separated bamboo slips and paper fragments floating over a calm river, drawn together by fine golden streams into one complete scroll, tiny cyan fireflies at merge points. Avoid text, people, photo, neon, red, purple, cartoon.",
+  "refs": [
+    "/root/workspace/LingMuDongFu/web/public/assets/lydt/thumbnails/blog/blog-ink-zero-allgather.png"
+  ],
+  "provider": "zenmux",
+  "model": "openai/gpt-image-2",
+  "base_url": "https://zenmux.ai/api/vertex-ai",
+  "output_path": "/root/workspace/LingMuDongFu/web/public/assets/lydt/alternates/blog/blog-ink-zero-allgather-alt-a.png",
+  "response_text": ""
+}

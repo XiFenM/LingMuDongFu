@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-05-14T02:47:19",
+  "type": "wide",
+  "aspect_ratio": "16:9",
+  "prompt": "Reference image role: contact moon tea room background defines style: dark emerald tree interior, round moon window, warm lantern, quiet desk. Create a reusable 16:9 scene asset. NO text. Subject: low wooden tea desk with a celadon cup, small teapot, bamboo slip, moonlight falling from a circular window, subtle mist and cyan fireflies. Dark readable edges, premium restrained mood. Avoid people, readable characters, modern UI, oversaturated neon.",
+  "refs": [
+    "/root/workspace/LingMuDongFu/web/public/assets/lydt/bg/bg-contact-moon-tea-room-desktop.png"
+  ],
+  "provider": "zenmux",
+  "model": "openai/gpt-image-2",
+  "base_url": "https://zenmux.ai/api/vertex-ai",
+  "output_path": "/root/workspace/LingMuDongFu/web/public/assets/lydt/scene/desk-tea.png",
+  "response_text": ""
+}

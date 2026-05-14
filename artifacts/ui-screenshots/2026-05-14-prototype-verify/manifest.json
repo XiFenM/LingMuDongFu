@@ -1,0 +1,32 @@
+{
+  "pass": "2026-05-14-prototype-verify",
+  "method": "viewport screenshots at prototype dimensions + draw-ui/scripts/compare_mockup.py",
+  "screenshots": [
+    "artifacts/ui-screenshots/2026-05-14-prototype-verify/screenshots/404.png",
+    "artifacts/ui-screenshots/2026-05-14-prototype-verify/screenshots/blog-detail.png",
+    "artifacts/ui-screenshots/2026-05-14-prototype-verify/screenshots/blog-list.png",
+    "artifacts/ui-screenshots/2026-05-14-prototype-verify/screenshots/home-fullpage.png",
+    "artifacts/ui-screenshots/2026-05-14-prototype-verify/screenshots/home.png",
+    "artifacts/ui-screenshots/2026-05-14-prototype-verify/screenshots/project-detail.png",
+    "artifacts/ui-screenshots/2026-05-14-prototype-verify/screenshots/projects-list.png",
+    "artifacts/ui-screenshots/2026-05-14-prototype-verify/screenshots/resume.png"
+  ],
+  "side_by_side": [
+    "artifacts/ui-screenshots/2026-05-14-prototype-verify/side-by-side/404-side-by-side.jpg",
+    "artifacts/ui-screenshots/2026-05-14-prototype-verify/side-by-side/blog-detail-side-by-side.jpg",
+    "artifacts/ui-screenshots/2026-05-14-prototype-verify/side-by-side/blog-list-side-by-side.jpg",
+    "artifacts/ui-screenshots/2026-05-14-prototype-verify/side-by-side/home-side-by-side.jpg",
+    "artifacts/ui-screenshots/2026-05-14-prototype-verify/side-by-side/project-detail-side-by-side.jpg",
+    "artifacts/ui-screenshots/2026-05-14-prototype-verify/side-by-side/projects-list-side-by-side.jpg",
+    "artifacts/ui-screenshots/2026-05-14-prototype-verify/side-by-side/resume-side-by-side.jpg"
+  ],
+  "metrics_files": [
+    "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/404/404-metrics.json",
+    "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/blog-detail/blog-detail-metrics.json",
+    "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/blog-list/blog-list-metrics.json",
+    "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/home/home-metrics.json",
+    "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/project-detail/project-detail-metrics.json",
+    "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/projects-list/projects-list-metrics.json",
+    "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/resume/resume-metrics.json"
+  ]
+}

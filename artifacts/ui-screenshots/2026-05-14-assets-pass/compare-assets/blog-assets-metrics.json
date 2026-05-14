@@ -1,0 +1,30 @@
+{
+  "reference": "design/pages/博客列表页.png",
+  "candidate": "/tmp/lydt-blog-assets.png",
+  "reference_size": [
+    941,
+    1672
+  ],
+  "candidate_size_original": [
+    1440,
+    2419
+  ],
+  "candidate_size_compared": [
+    941,
+    1672
+  ],
+  "regions": [
+    {
+      "name": "full",
+      "size": [
+        941,
+        1672
+      ],
+      "rms_diff": 53.675,
+      "mean_abs_diff": 32.078,
+      "candidate": "/tmp/lydt-assets-compare/blog-assets-full-candidate.png",
+      "diff": "/tmp/lydt-assets-compare/blog-assets-full-diff.png",
+      "heatmap": "/tmp/lydt-assets-compare/blog-assets-full-heatmap.png"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "reference": "design/pages/首页(修改年轮后).png",
+  "candidate": "/tmp/lydt-verify/pass2-1440/home.png",
+  "reference_size": [
+    887,
+    1774
+  ],
+  "candidate_size_original": [
+    1440,
+    3006
+  ],
+  "candidate_size_compared": [
+    887,
+    1774
+  ],
+  "regions": [
+    {
+      "name": "full",
+      "size": [
+        887,
+        1774
+      ],
+      "rms_diff": 70.712,
+      "mean_abs_diff": 44.369,
+      "candidate": "/tmp/lydt-verify/pass2-compare/home-full-candidate.png",
+      "diff": "/tmp/lydt-verify/pass2-compare/home-full-diff.png",
+      "heatmap": "/tmp/lydt-verify/pass2-compare/home-full-heatmap.png"
+    },
+    {
+      "name": "hero",
+      "size": [
+        887,
+        420
+      ],
+      "rms_diff": 47.815,
+      "mean_abs_diff": 26.033,
+      "candidate": "/tmp/lydt-verify/pass2-compare/home-hero-candidate.png",
+      "diff": "/tmp/lydt-verify/pass2-compare/home-hero-diff.png",
+      "heatmap": "/tmp/lydt-verify/pass2-compare/home-hero-heatmap.png"
+    },
+    {
+      "name": "skills",
+      "size": [
+        887,
+        300
+      ],
+      "rms_diff": 57.189,
+      "mean_abs_diff": 32.887,
+      "candidate": "/tmp/lydt-verify/pass2-compare/home-skills-candidate.png",
+      "diff": "/tmp/lydt-verify/pass2-compare/home-skills-diff.png",
+      "heatmap": "/tmp/lydt-verify/pass2-compare/home-skills-heatmap.png"
+    },
+    {
+      "name": "contact",
+      "size": [
+        887,
+        230
+      ],
+      "rms_diff": 78.424,
+      "mean_abs_diff": 55.594,
+      "candidate": "/tmp/lydt-verify/pass2-compare/home-contact-candidate.png",
+      "diff": "/tmp/lydt-verify/pass2-compare/home-contact-diff.png",
+      "heatmap": "/tmp/lydt-verify/pass2-compare/home-contact-heatmap.png"
+    }
+  ]
+}

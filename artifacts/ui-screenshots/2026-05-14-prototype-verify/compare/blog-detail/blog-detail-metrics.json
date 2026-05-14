@@ -1,0 +1,66 @@
+{
+  "reference": "design/pages/博客详情页.png",
+  "candidate": "artifacts/ui-screenshots/2026-05-14-prototype-verify/screenshots/blog-detail.png",
+  "reference_size": [
+    1024,
+    1536
+  ],
+  "candidate_size_original": [
+    1024,
+    1536
+  ],
+  "candidate_size_compared": [
+    1024,
+    1536
+  ],
+  "regions": [
+    {
+      "name": "full",
+      "size": [
+        1024,
+        1536
+      ],
+      "rms_diff": 92.599,
+      "mean_abs_diff": 62.262,
+      "candidate": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/blog-detail/blog-detail-full-candidate.png",
+      "diff": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/blog-detail/blog-detail-full-diff.png",
+      "heatmap": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/blog-detail/blog-detail-full-heatmap.png"
+    },
+    {
+      "name": "hero",
+      "size": [
+        1024,
+        420
+      ],
+      "rms_diff": 79.583,
+      "mean_abs_diff": 46.95,
+      "candidate": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/blog-detail/blog-detail-hero-candidate.png",
+      "diff": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/blog-detail/blog-detail-hero-diff.png",
+      "heatmap": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/blog-detail/blog-detail-hero-heatmap.png"
+    },
+    {
+      "name": "article",
+      "size": [
+        720,
+        760
+      ],
+      "rms_diff": 112.767,
+      "mean_abs_diff": 87.46,
+      "candidate": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/blog-detail/blog-detail-article-candidate.png",
+      "diff": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/blog-detail/blog-detail-article-diff.png",
+      "heatmap": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/blog-detail/blog-detail-article-heatmap.png"
+    },
+    {
+      "name": "sidebar",
+      "size": [
+        304,
+        760
+      ],
+      "rms_diff": 40.755,
+      "mean_abs_diff": 20.717,
+      "candidate": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/blog-detail/blog-detail-sidebar-candidate.png",
+      "diff": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/blog-detail/blog-detail-sidebar-diff.png",
+      "heatmap": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/blog-detail/blog-detail-sidebar-heatmap.png"
+    }
+  ]
+}

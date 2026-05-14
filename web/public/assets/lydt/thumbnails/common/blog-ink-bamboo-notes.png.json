@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-05-14T02:02:26",
+  "type": "wide",
+  "aspect_ratio": "16:9",
+  "prompt": "Reference image role: existing blog thumbnails define exact style: Chinese ink-wash, warm parchment-green, low contrast, painterly soft edges, subtle cyan and gold. Create a generic 16:9 note thumbnail. NO text. Subject: a quiet bamboo grove with several blank bamboo slips and a small jade bookmark, thin golden constellation lines connecting slip corners, cyan fireflies in mist. Avoid readable characters, people, modern UI, neon, purple, red, cartoon.",
+  "refs": [
+    "/root/workspace/LingMuDongFu/web/public/assets/lydt/thumbnails/blog/blog-ink-pytorch-dispatcher.png"
+  ],
+  "provider": "zenmux",
+  "model": "openai/gpt-image-2",
+  "base_url": "https://zenmux.ai/api/vertex-ai",
+  "output_path": "/root/workspace/LingMuDongFu/web/public/assets/lydt/thumbnails/common/blog-ink-bamboo-notes.png",
+  "response_text": ""
+}

@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-05-14T02:03:20",
+  "type": "wide",
+  "aspect_ratio": "16:9",
+  "prompt": "Reference image role: existing page backgrounds define the 灵木洞天 scene style: dark emerald tree hollow, moon window, lanterns, warm wood, cyan fireflies, quiet premium atmosphere. Create a reusable 16:9 bottom CTA banner background for project detail pages. NO text, no logo. Leave a darker readable empty area in the left-center for HTML text. Subject: tree-root palace interior with a small golden lantern and faint circular rune pattern on a wooden floor to the right. Low contrast, cinematic, not busy. Avoid people, readable text, UI mockup, purple neon.",
+  "refs": [
+    "/root/workspace/LingMuDongFu/web/public/assets/lydt/bg/bg-project-detail-research-chamber-desktop.png"
+  ],
+  "provider": "zenmux",
+  "model": "openai/gpt-image-2",
+  "base_url": "https://zenmux.ai/api/vertex-ai",
+  "output_path": "/root/workspace/LingMuDongFu/web/public/assets/lydt/decor/decor-project-cta-banner.png",
+  "response_text": ""
+}

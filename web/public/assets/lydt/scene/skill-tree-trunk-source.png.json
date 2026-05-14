@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-05-14T08:42:53",
+  "type": "square",
+  "aspect_ratio": "1:1",
+  "prompt": "Standalone hand-painted mystical ancient tree trunk asset for a web UI skill tree. Ancient dark wood trunk with six graceful branching limbs, three left and three right, moss, tiny warm gold vein lines, small firefly node tips. Centered subject, generous padding. No text, no letters, no logo, no LYDT, no circular emblem. Put it on a perfectly flat solid #00ff00 chroma-key background, no shadows or glow touching the background, crisp opaque edges.",
+  "refs": [],
+  "provider": "zenmux",
+  "model": "openai/gpt-image-2",
+  "base_url": "https://zenmux.ai/api/vertex-ai",
+  "output_path": "/root/workspace/LingMuDongFu/web/public/assets/lydt/scene.png",
+  "response_text": ""
+}

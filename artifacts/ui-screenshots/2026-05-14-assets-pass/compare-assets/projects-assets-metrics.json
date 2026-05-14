@@ -1,0 +1,30 @@
+{
+  "reference": "design/pages/项目列表页.png",
+  "candidate": "/tmp/lydt-projects-assets.png",
+  "reference_size": [
+    1024,
+    1536
+  ],
+  "candidate_size_original": [
+    1440,
+    1998
+  ],
+  "candidate_size_compared": [
+    1024,
+    1536
+  ],
+  "regions": [
+    {
+      "name": "full",
+      "size": [
+        1024,
+        1536
+      ],
+      "rms_diff": 34.537,
+      "mean_abs_diff": 19.243,
+      "candidate": "/tmp/lydt-assets-compare/projects-assets-full-candidate.png",
+      "diff": "/tmp/lydt-assets-compare/projects-assets-full-diff.png",
+      "heatmap": "/tmp/lydt-assets-compare/projects-assets-full-heatmap.png"
+    }
+  ]
+}

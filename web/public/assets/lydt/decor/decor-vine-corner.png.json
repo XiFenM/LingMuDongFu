@@ -1,0 +1,7 @@
+{
+  "created_at": "2026-05-14",
+  "source": "web/public/assets/lydt/decor/decor-vine-corner-source.png",
+  "process": "draw-ui/scripts/prepare_image_asset.py --key-color #00ff00 --key-threshold 62 --feather 54 --despill --edge-contract 1 --padding 24",
+  "asset_id": "UIA-007",
+  "usage": "透明藤蔓角花，用于卡片、侧栏、页脚和纸卡低透明装饰。"
+}

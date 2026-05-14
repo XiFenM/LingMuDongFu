@@ -1,0 +1,30 @@
+{
+  "reference": "design/pages/简历页.png",
+  "candidate": "/tmp/lydt-verify/devfinal/resume.png",
+  "reference_size": [
+    1024,
+    1536
+  ],
+  "candidate_size_original": [
+    1440,
+    2320
+  ],
+  "candidate_size_compared": [
+    1024,
+    1536
+  ],
+  "regions": [
+    {
+      "name": "full",
+      "size": [
+        1024,
+        1536
+      ],
+      "rms_diff": 39.177,
+      "mean_abs_diff": 20.08,
+      "candidate": "/tmp/lydt-verify/devfinal-compare/resume-full-candidate.png",
+      "diff": "/tmp/lydt-verify/devfinal-compare/resume-full-diff.png",
+      "heatmap": "/tmp/lydt-verify/devfinal-compare/resume-full-heatmap.png"
+    }
+  ]
+}

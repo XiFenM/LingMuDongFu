@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-05-14T01:56:55",
+  "type": "wide",
+  "aspect_ratio": "16:9",
+  "prompt": "Reference image role: existing blog thumbnails define style: Chinese ink-wash, warm parchment-green, low contrast, grey-black mountains, subtle cyan and gold tech metaphor. Create alternate 16:9 blog thumbnail for Triton 与 CUDA 核心原理整理. NO text. Subject: an ancient forge in misty mountains shaping a small glowing jade cube, thin golden kernel grid lines rising from the anvil, one cyan firefly at the center. Atmospheric brush painting. Avoid text, characters, photo, neon, purple, cartoon.",
+  "refs": [
+    "/root/workspace/LingMuDongFu/web/public/assets/lydt/thumbnails/blog/blog-ink-triton-cuda.png"
+  ],
+  "provider": "zenmux",
+  "model": "openai/gpt-image-2",
+  "base_url": "https://zenmux.ai/api/vertex-ai",
+  "output_path": "/root/workspace/LingMuDongFu/web/public/assets/lydt/alternates/blog/blog-ink-triton-cuda-alt-a.png",
+  "response_text": ""
+}

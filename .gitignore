@@ -19,6 +19,11 @@ __pycache__/
 **/coverage/
 
 # tooling caches
+.playwright-cli/
+.playwright/
+.agents/skills/playwright-cli/
+.claude/skills/playwright-cli/
+.claude/settings.local.json
 **/.cache/
 .draw/
 

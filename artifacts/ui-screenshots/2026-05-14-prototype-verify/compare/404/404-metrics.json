@@ -1,0 +1,54 @@
+{
+  "reference": "design/pages/404页.png",
+  "candidate": "artifacts/ui-screenshots/2026-05-14-prototype-verify/screenshots/404.png",
+  "reference_size": [
+    1122,
+    1402
+  ],
+  "candidate_size_original": [
+    1122,
+    1402
+  ],
+  "candidate_size_compared": [
+    1122,
+    1402
+  ],
+  "regions": [
+    {
+      "name": "full",
+      "size": [
+        1122,
+        1402
+      ],
+      "rms_diff": 62.381,
+      "mean_abs_diff": 35.283,
+      "candidate": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/404/404-full-candidate.png",
+      "diff": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/404/404-full-diff.png",
+      "heatmap": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/404/404-full-heatmap.png"
+    },
+    {
+      "name": "hero",
+      "size": [
+        1122,
+        920
+      ],
+      "rms_diff": 66.286,
+      "mean_abs_diff": 36.691,
+      "candidate": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/404/404-hero-candidate.png",
+      "diff": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/404/404-hero-diff.png",
+      "heatmap": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/404/404-hero-heatmap.png"
+    },
+    {
+      "name": "lower",
+      "size": [
+        1122,
+        482
+      ],
+      "rms_diff": 54.152,
+      "mean_abs_diff": 32.594,
+      "candidate": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/404/404-lower-candidate.png",
+      "diff": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/404/404-lower-diff.png",
+      "heatmap": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/404/404-lower-heatmap.png"
+    }
+  ]
+}

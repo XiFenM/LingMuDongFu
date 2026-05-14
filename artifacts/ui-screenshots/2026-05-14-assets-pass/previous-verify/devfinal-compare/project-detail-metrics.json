@@ -1,0 +1,30 @@
+{
+  "reference": "design/pages/项目详情页.png",
+  "candidate": "/tmp/lydt-verify/devfinal/project-detail.png",
+  "reference_size": [
+    1024,
+    1536
+  ],
+  "candidate_size_original": [
+    1440,
+    2213
+  ],
+  "candidate_size_compared": [
+    1024,
+    1536
+  ],
+  "regions": [
+    {
+      "name": "full",
+      "size": [
+        1024,
+        1536
+      ],
+      "rms_diff": 64.645,
+      "mean_abs_diff": 37.387,
+      "candidate": "/tmp/lydt-verify/devfinal-compare/project-detail-full-candidate.png",
+      "diff": "/tmp/lydt-verify/devfinal-compare/project-detail-full-diff.png",
+      "heatmap": "/tmp/lydt-verify/devfinal-compare/project-detail-full-heatmap.png"
+    }
+  ]
+}

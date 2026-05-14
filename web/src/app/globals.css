@@ -1,0 +1,234 @@
+@import "tailwindcss";
+
+@theme {
+  /* === LYDT Color Tokens === */
+  --color-ink-950: #071714;
+  --color-ink-900: #0b211d;
+  --color-ink-850: #0f2a25;
+  --color-ink-800: #12352e;
+  --color-ink-700: #18483e;
+
+  --color-wood-950: #160f0a;
+  --color-wood-900: #24180f;
+  --color-wood-800: #352416;
+  --color-wood-700: #4a321d;
+  --color-wood-600: #62452b;
+
+  --color-moss-800: #263d2d;
+  --color-moss-700: #33513a;
+  --color-moss-600: #456c4e;
+
+  --color-jade-700: #4e7a68;
+  --color-jade-600: #6a9580;
+  --color-jade-500: #8eb09b;
+  --color-jade-300: #b9d1c4;
+
+  --color-firefly-600: #7ad7a5;
+  --color-firefly-500: #9cf0bd;
+  --color-firefly-300: #c9ffd9;
+
+  --color-moon: #e8e2cf;
+  --color-paper: #f0e5c9;
+  --color-paper-warm: #d8c7a2;
+  --color-old-paper: #b8a67e;
+
+  --color-gold-600: #9f8243;
+  --color-gold-500: #c0a35d;
+  --color-gold-300: #e0cc88;
+
+  --color-cinnabar-700: #7a2f26;
+  --color-cinnabar-600: #9a4336;
+
+  /* === Typography === */
+  --font-sans: "Inter", "Noto Sans SC", "PingFang SC", system-ui, sans-serif;
+  --font-serif: "Noto Serif SC", "Source Han Serif SC", "Songti SC", serif;
+  --font-mono: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+
+  /* === Radius === */
+  --radius-card: 14px;
+}
+
+/* === Base === */
+@layer base {
+  html,
+  body {
+    background-color: var(--color-ink-950);
+    color: var(--color-moon);
+    font-family: var(--font-sans);
+    font-feature-settings: "ss01", "ss02";
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    background-image:
+      radial-gradient(ellipse 80% 60% at 50% 0%, rgba(24, 72, 62, 0.18), transparent 70%),
+      url("/assets/lydt/texture/texture-ink-green-noise.png");
+    background-blend-mode: normal, multiply;
+    background-size: auto, 512px 512px;
+    background-repeat: no-repeat, repeat;
+    min-height: 100dvh;
+  }
+
+  ::selection {
+    background: rgba(192, 163, 93, 0.4);
+    color: var(--color-moon);
+  }
+
+  /* Scrollbar — quiet warm */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--color-ink-950);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(192, 163, 93, 0.18);
+    border-radius: 6px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(192, 163, 93, 0.32);
+  }
+}
+
+/* === Utilities === */
+@layer utilities {
+  .font-display {
+    font-family: var(--font-serif);
+    letter-spacing: 0.02em;
+  }
+  .text-balance {
+    text-wrap: balance;
+  }
+  .gold-line {
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(192, 163, 93, 0.6) 20%,
+      rgba(224, 204, 136, 0.85) 50%,
+      rgba(192, 163, 93, 0.6) 80%,
+      transparent
+    );
+    height: 1px;
+  }
+  /* Dark wood card */
+  .card-wood {
+    position: relative;
+    background:
+      linear-gradient(180deg, rgba(11, 33, 29, 0.78), rgba(7, 23, 20, 0.86)),
+      url("/assets/lydt/texture/texture-wood-grain-dark.png");
+    background-size: auto, 240px 240px;
+    background-blend-mode: normal, overlay;
+    border: 1px solid rgba(224, 204, 136, 0.22);
+    box-shadow:
+      0 0 0 1px rgba(0, 0, 0, 0.4) inset,
+      0 24px 48px -24px rgba(0, 0, 0, 0.7);
+    border-radius: var(--radius-card);
+  }
+  .card-wood::before,
+  .card-wood::after {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border: 1px solid rgba(224, 204, 136, 0.55);
+    pointer-events: none;
+  }
+  .card-wood::before {
+    top: 6px;
+    left: 6px;
+    border-right: 0;
+    border-bottom: 0;
+  }
+  .card-wood::after {
+    bottom: 6px;
+    right: 6px;
+    border-left: 0;
+    border-top: 0;
+  }
+  /* Paper card (rice paper) */
+  .card-paper {
+    position: relative;
+    background:
+      linear-gradient(180deg, rgba(240, 229, 201, 0.92), rgba(216, 199, 162, 0.88)),
+      url("/assets/lydt/texture/texture-paper-fiber-warm.png");
+    background-blend-mode: multiply;
+    background-size: auto, 320px 320px;
+    color: #2a2117;
+    border: 1px solid rgba(74, 50, 29, 0.42);
+    box-shadow:
+      inset 0 0 32px rgba(74, 50, 29, 0.18),
+      0 18px 36px -20px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+  }
+  .card-paper::before {
+    content: "";
+    position: absolute;
+    right: -18px;
+    bottom: -18px;
+    width: 138px;
+    height: 138px;
+    background-image: url("/assets/lydt/decor/decor-vine-corner.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    opacity: 0.13;
+    transform: rotate(180deg);
+    pointer-events: none;
+    mix-blend-mode: multiply;
+  }
+  .ornament-vine-corner {
+    pointer-events: none;
+    background-image: url("/assets/lydt/decor/decor-vine-corner.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  /* Jade pill tag */
+  .tag-jade {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35em;
+    padding: 0.18em 0.7em;
+    font-size: 0.72rem;
+    line-height: 1.45;
+    border-radius: 999px;
+    background: linear-gradient(180deg, rgba(142, 176, 155, 0.18), rgba(78, 122, 104, 0.22));
+    border: 1px solid rgba(185, 209, 196, 0.35);
+    color: var(--color-jade-300);
+    font-family: var(--font-sans);
+  }
+  /* Bamboo side-tab — small vertical label */
+  .bamboo-tab {
+    position: absolute;
+    top: 14px;
+    left: -10px;
+    writing-mode: vertical-rl;
+    padding: 10px 4px;
+    background: linear-gradient(180deg, #3d2918, #28190d);
+    color: #e0cc88;
+    border-radius: 4px;
+    font-family: var(--font-serif);
+    letter-spacing: 0.25em;
+    font-size: 11px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  /* Firefly glow */
+  .firefly {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-image: url("/assets/lydt/fx/fx-firefly-sprite.png");
+    background-size: cover;
+    background-position: center;
+    mix-blend-mode: screen;
+    opacity: 0.85;
+    pointer-events: none;
+    animation: firefly-float 6s ease-in-out infinite;
+  }
+  @keyframes firefly-float {
+    0%, 100% { transform: translateY(0) scale(1); opacity: 0.55; }
+    50% { transform: translateY(-12px) scale(1.15); opacity: 0.95; }
+  }
+}

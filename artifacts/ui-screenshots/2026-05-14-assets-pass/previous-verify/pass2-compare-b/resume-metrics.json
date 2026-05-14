@@ -1,0 +1,30 @@
+{
+  "reference": "design/pages/简历页.png",
+  "candidate": "/tmp/lydt-verify/pass2-1440b/resume.png",
+  "reference_size": [
+    1024,
+    1536
+  ],
+  "candidate_size_original": [
+    1440,
+    6387
+  ],
+  "candidate_size_compared": [
+    1024,
+    1536
+  ],
+  "regions": [
+    {
+      "name": "full",
+      "size": [
+        1024,
+        1536
+      ],
+      "rms_diff": 200.561,
+      "mean_abs_diff": 179.016,
+      "candidate": "/tmp/lydt-verify/pass2-compare-b/resume-full-candidate.png",
+      "diff": "/tmp/lydt-verify/pass2-compare-b/resume-full-diff.png",
+      "heatmap": "/tmp/lydt-verify/pass2-compare-b/resume-full-heatmap.png"
+    }
+  ]
+}

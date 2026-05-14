@@ -1,0 +1,42 @@
+{
+  "reference": "design/pages/首页(修改年轮后).png",
+  "candidate": "artifacts/ui-screenshots/2026-05-14-timeline-fix/screenshots/home-viewport.png",
+  "reference_size": [
+    887,
+    1774
+  ],
+  "candidate_size_original": [
+    887,
+    1774
+  ],
+  "candidate_size_compared": [
+    887,
+    1774
+  ],
+  "regions": [
+    {
+      "name": "full",
+      "size": [
+        887,
+        1774
+      ],
+      "rms_diff": 76.723,
+      "mean_abs_diff": 48.951,
+      "candidate": "artifacts/ui-screenshots/2026-05-14-timeline-fix/compare/home/home-full-candidate.png",
+      "diff": "artifacts/ui-screenshots/2026-05-14-timeline-fix/compare/home/home-full-diff.png",
+      "heatmap": "artifacts/ui-screenshots/2026-05-14-timeline-fix/compare/home/home-full-heatmap.png"
+    },
+    {
+      "name": "timeline",
+      "size": [
+        887,
+        285
+      ],
+      "rms_diff": 48.228,
+      "mean_abs_diff": 33.385,
+      "candidate": "artifacts/ui-screenshots/2026-05-14-timeline-fix/compare/home/home-timeline-candidate.png",
+      "diff": "artifacts/ui-screenshots/2026-05-14-timeline-fix/compare/home/home-timeline-diff.png",
+      "heatmap": "artifacts/ui-screenshots/2026-05-14-timeline-fix/compare/home/home-timeline-heatmap.png"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "archived_at": "2026-05-14T02:56:50+00:00",
+  "archive_root": "artifacts/ui-screenshots/2026-05-14-resume-scene-pass",
+  "description": "Resume/scene asset pass screenshots, asset contact sheet, and compare outputs.",
+  "moved_count": 14,
+  "moves": [
+    {
+      "from": "/tmp/lydt-2026-05-14-resume-pass/404.png",
+      "to": "artifacts/ui-screenshots/2026-05-14-resume-scene-pass/screenshots/404.png"
+    },
+    {
+      "from": "/tmp/lydt-2026-05-14-resume-pass/compare/404-pass-full-candidate.png",
+      "to": "artifacts/ui-screenshots/2026-05-14-resume-scene-pass/compare/404-pass-full-candidate.png"
+    },
+    {
+      "from": "/tmp/lydt-2026-05-14-resume-pass/compare/404-pass-full-diff.png",
+      "to": "artifacts/ui-screenshots/2026-05-14-resume-scene-pass/compare/404-pass-full-diff.png"
+    },
+    {
+      "from": "/tmp/lydt-2026-05-14-resume-pass/compare/404-pass-full-heatmap.png",
+      "to": "artifacts/ui-screenshots/2026-05-14-resume-scene-pass/compare/404-pass-full-heatmap.png"
+    },
+    {
+      "from": "/tmp/lydt-2026-05-14-resume-pass/compare/404-pass-metrics.json",
+      "to": "artifacts/ui-screenshots/2026-05-14-resume-scene-pass/compare/404-pass-metrics.json"
+    },
+    {
+      "from": "/tmp/lydt-2026-05-14-resume-pass/compare/resume-pass-full-candidate.png",
+      "to": "artifacts/ui-screenshots/2026-05-14-resume-scene-pass/compare/resume-pass-full-candidate.png"
+    },
+    {
+      "from": "/tmp/lydt-2026-05-14-resume-pass/compare/resume-pass-full-diff.png",
+      "to": "artifacts/ui-screenshots/2026-05-14-resume-scene-pass/compare/resume-pass-full-diff.png"
+    },
+    {
+      "from": "/tmp/lydt-2026-05-14-resume-pass/compare/resume-pass-full-heatmap.png",
+      "to": "artifacts/ui-screenshots/2026-05-14-resume-scene-pass/compare/resume-pass-full-heatmap.png"
+    },
+    {
+      "from": "/tmp/lydt-2026-05-14-resume-pass/compare/resume-pass-metrics.json",
+      "to": "artifacts/ui-screenshots/2026-05-14-resume-scene-pass/compare/resume-pass-metrics.json"
+    },
+    {
+      "from": "/tmp/lydt-2026-05-14-resume-pass/home.png",
+      "to": "artifacts/ui-screenshots/2026-05-14-resume-scene-pass/screenshots/home.png"
+    },
+    {
+      "from": "/tmp/lydt-2026-05-14-resume-pass/resume-v2.png",
+      "to": "artifacts/ui-screenshots/2026-05-14-resume-scene-pass/screenshots/resume-v2.png"
+    },
+    {
+      "from": "/tmp/lydt-2026-05-14-resume-pass/resume-v3.png",
+      "to": "artifacts/ui-screenshots/2026-05-14-resume-scene-pass/screenshots/resume-v3.png"
+    },
+    {
+      "from": "/tmp/lydt-2026-05-14-resume-pass/resume.png",
+      "to": "artifacts/ui-screenshots/2026-05-14-resume-scene-pass/screenshots/resume.png"
+    },
+    {
+      "from": "/tmp/lydt-resume-scene-assets.jpg",
+      "to": "artifacts/ui-screenshots/2026-05-14-resume-scene-pass/asset-previews/lydt-resume-scene-assets.jpg"
+    }
+  ]
+}

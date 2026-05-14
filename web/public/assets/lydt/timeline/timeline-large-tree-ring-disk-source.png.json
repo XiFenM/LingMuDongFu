@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-05-14T08:44:23",
+  "type": "wide",
+  "aspect_ratio": "16:9",
+  "prompt": "Standalone horizontal oval cross-section tree ring disk asset for a fantasy portfolio timeline. Ancient dark wood slab, many fine concentric rings, subtle cracks, warm gold luminous ring lines, plain central tree core glow. No text, no letters, no logo, no LYDT, no emblem. Subject centered with generous padding. Put it on a perfectly flat solid #00ff00 chroma-key background, no shadows or glow touching the background, crisp opaque outer edge.",
+  "refs": [],
+  "provider": "zenmux",
+  "model": "openai/gpt-image-2",
+  "base_url": "https://zenmux.ai/api/vertex-ai",
+  "output_path": "/root/workspace/LingMuDongFu/web/public/assets/lydt/timeline/timeline-large-tree-ring-disk-source.png",
+  "response_text": ""
+}

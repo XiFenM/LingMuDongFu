@@ -1,0 +1,66 @@
+{
+  "reference": "design/pages/项目详情页.png",
+  "candidate": "artifacts/ui-screenshots/2026-05-14-prototype-verify/screenshots/project-detail.png",
+  "reference_size": [
+    1024,
+    1536
+  ],
+  "candidate_size_original": [
+    1024,
+    1536
+  ],
+  "candidate_size_compared": [
+    1024,
+    1536
+  ],
+  "regions": [
+    {
+      "name": "full",
+      "size": [
+        1024,
+        1536
+      ],
+      "rms_diff": 83.41,
+      "mean_abs_diff": 53.639,
+      "candidate": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/project-detail/project-detail-full-candidate.png",
+      "diff": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/project-detail/project-detail-full-diff.png",
+      "heatmap": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/project-detail/project-detail-full-heatmap.png"
+    },
+    {
+      "name": "hero",
+      "size": [
+        1024,
+        410
+      ],
+      "rms_diff": 54.365,
+      "mean_abs_diff": 27.832,
+      "candidate": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/project-detail/project-detail-hero-candidate.png",
+      "diff": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/project-detail/project-detail-hero-diff.png",
+      "heatmap": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/project-detail/project-detail-hero-heatmap.png"
+    },
+    {
+      "name": "content",
+      "size": [
+        740,
+        840
+      ],
+      "rms_diff": 77.993,
+      "mean_abs_diff": 48.817,
+      "candidate": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/project-detail/project-detail-content-candidate.png",
+      "diff": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/project-detail/project-detail-content-diff.png",
+      "heatmap": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/project-detail/project-detail-content-heatmap.png"
+    },
+    {
+      "name": "sidebar",
+      "size": [
+        284,
+        840
+      ],
+      "rms_diff": 109.625,
+      "mean_abs_diff": 85.591,
+      "candidate": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/project-detail/project-detail-sidebar-candidate.png",
+      "diff": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/project-detail/project-detail-sidebar-diff.png",
+      "heatmap": "artifacts/ui-screenshots/2026-05-14-prototype-verify/compare/project-detail/project-detail-sidebar-heatmap.png"
+    }
+  ]
+}
