@@ -14,7 +14,7 @@ export function Hero() {
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[var(--color-ink-950)]" />
       </div>
       <Fireflies count={14} />
-      <div className="pointer-events-none absolute top-3 z-10 hidden origin-top-left scale-[0.64] md:left-4 md:block lg:scale-[0.58] [left:max(0.75rem,calc((100vw-1280px)/2+1rem))]">
+      <div className="pointer-events-none absolute top-3 z-10 hidden origin-top-left scale-[0.72] md:left-4 md:block lg:scale-[0.66] [left:max(0.75rem,calc((100vw-1280px)/2+1rem))]">
         <HangingBanner
           text={hero.hangingText}
           sub={hero.hangingSub}
@@ -23,7 +23,7 @@ export function Hero() {
       </div>
 
       <div className="mx-auto flex max-w-[1280px] flex-col gap-8 px-6 pt-14 pb-18 lg:flex-row lg:items-start lg:gap-14 lg:pt-18 lg:pb-22">
-        <div className="max-w-[640px] flex-1 md:pl-[68px] lg:pl-[88px]">
+        <div className="max-w-[640px] flex-1 md:pl-[84px] lg:pl-[104px]">
           <div className="flex items-baseline gap-3 font-display">
             <span className="text-[clamp(2.6rem,5.6vw,4.15rem)] leading-none text-[var(--color-moon)]">{hero.name}</span>
             <span className="text-[clamp(1.25rem,2.7vw,2rem)] text-[#e0cc88]">/ {hero.englishName}</span>

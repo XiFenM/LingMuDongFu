@@ -1,5 +1,5 @@
 ---
-title: 夕丰木技能树
+title: 技能树
 sub: Skills Tree
 ---
 

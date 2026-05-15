@@ -17,9 +17,8 @@ export function HangingBanner({ text, sub, className }: Props) {
         className="object-fill"
         aria-hidden
       />
-      <div className="absolute inset-x-[18%] top-[16%] bottom-[12%] flex items-center justify-center gap-1 text-[#5d4a2c]">
-        <VerticalText value={text} className="text-[15px] md:text-[17px] lg:text-[19px] gap-[0.18em]" />
-        {sub ? <VerticalText value={sub} className="text-[9px] md:text-[10px] lg:text-[11px] gap-[0.1em] text-[#7a6537]" /> : null}
+      <div className="absolute inset-x-[16%] top-[13%] bottom-[11%] flex items-center justify-center text-[#5d4a2c]">
+        <VerticalText value={text ?? sub} className="gap-[0.14em] text-[20px] md:text-[23px] lg:text-[27px]" />
       </div>
     </div>
   );
