@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { SectionHeader } from "./SectionHeader";
-import { CONTACT_CARDS } from "@/lib/data";
+import { getContactContent } from "@/lib/content";
 import { Fireflies } from "./Fireflies";
 import { IconGithub, IconLinkedIn, IconMail, IconFile } from "./Icons";
 
@@ -12,6 +12,8 @@ const iconMap: Record<string, React.ComponentType<{ width?: number; height?: num
 };
 
 export function Contact() {
+  const contact = getContactContent();
+
   return (
     <section id="contact" className="relative isolate mt-8 overflow-hidden">
       <div className="absolute inset-0 -z-10 overflow-hidden">
@@ -23,13 +25,13 @@ export function Contact() {
       <Fireflies count={8} />
 
       <div className="mx-auto max-w-[1280px] px-6 pt-14 pb-16 md:pt-16 md:pb-18">
-        <SectionHeader title="月窗茶室" sub="Get In Touch" align="center" />
+        <SectionHeader title={contact.title} sub={contact.sub} align="center" />
         <p className="mx-auto mt-4 max-w-[600px] text-center text-[13px] leading-[1.75] text-[#cfc4a8]">
-          月色入窗，茶气未散。若你也在 GPU、编译器与分布式系统之间游走，欢迎留信，约一次安静的对谈。
+          {contact.description}
         </p>
 
         <div className="mt-8 grid gap-4 md:grid-cols-4">
-          {CONTACT_CARDS.map((c) => {
+          {contact.cards.map((c) => {
             const Icon = iconMap[c.icon] ?? IconMail;
             return (
               <a

@@ -1,3 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke="#e0cc88" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" >
-<defs><radialGradient id="c" cx="50%" cy="50%" r="60%"><stop stop-color="#e8e2cf"/><stop offset=".55" stop-color="#c0a35d"/><stop offset="1" stop-color="#263d2d"/></radialGradient></defs><circle cx="64" cy="64" r="56" fill="#0b211d" stroke="#e0cc88" stroke-width="2"/><circle cx="64" cy="64" r="45"/><circle cx="64" cy="64" r="33" opacity=".6"/><circle cx="64" cy="64" r="22" opacity=".45"/><path d="M64 8v16M64 104v16M8 64h16M104 64h16"/><text x="64" y="72" text-anchor="middle" font-family="Georgia,serif" font-size="20" letter-spacing="2" fill="url(#c)" stroke="none">LYDT</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke="#e0cc88" stroke-width="1.5">
+<defs><radialGradient id="c" cx="50%" cy="50%" r="60%"><stop stop-color="#e8e2cf"/><stop offset=".55" stop-color="#c0a35d"/><stop offset="1" stop-color="#263d2d"/></radialGradient></defs>
+<circle cx="64" cy="64" r="56" fill="#0b211d" stroke="#e0cc88" stroke-width="2"/>
+<circle cx="64" cy="64" r="45"/><circle cx="64" cy="64" r="33" opacity=".6"/><circle cx="64" cy="64" r="22" opacity=".45"/>
+<path d="M64 8v16M64 104v16M8 64h16M104 64h16"/>
+<text x="64" y="59" text-anchor="middle" font-family="Noto Serif SC, serif" font-size="25" fill="url(#c)" stroke="none">夕丰</text>
+<text x="64" y="88" text-anchor="middle" font-family="Noto Serif SC, serif" font-size="25" fill="url(#c)" stroke="none">木</text>
 </svg>

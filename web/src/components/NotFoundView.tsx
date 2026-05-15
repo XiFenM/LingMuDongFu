@@ -15,7 +15,7 @@ export function NotFoundView() {
           background="/assets/lydt/bg/bg-404-unfinished-tree-hole-desktop.png"
           crumbs={[{ label: "首页", href: "/" }, { label: "404" }]}
           title="404"
-          description={"你似乎走进了一间\n尚未长成的树洞。\n\n此路尚未成形，枝叶仍在生长之中。\n或许你可以回到洞天的主径，继续探索更多已长成的方向。"}
+          description={"你似乎走进了一间\n尚未长成的树洞。\n\n此路尚未成形，枝叶仍在生长之中。\n或许你可以回到夕丰木的主径，继续探索更多已长成的方向。"}
           bannerText="此路未成·枝叶待长"
           heightClass="min-h-[680px]"
         >
@@ -28,7 +28,7 @@ export function NotFoundView() {
             <div className="bamboo-tab">小提示</div>
             <h2 className="font-display text-[26px] tracking-[0.12em] text-[#2a2117]">也许这只灵萤能带你回到正确的路。</h2>
             <div className="my-5 h-px bg-[rgba(74,50,29,.24)]" />
-            <p className="text-[14px] leading-[1.8] text-[#5d513f]">跟随微光，回到洞天主径吧。</p>
+            <p className="text-[14px] leading-[1.8] text-[#5d513f]">跟随微光，回到夕丰木主径吧。</p>
           </div>
         </PageHero>
         <div className="mx-auto grid max-w-[1280px] gap-6 px-6 py-8 md:grid-cols-[320px_1fr] md:items-center">

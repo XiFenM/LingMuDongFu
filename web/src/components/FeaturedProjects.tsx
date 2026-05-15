@@ -1,19 +1,21 @@
 import Link from "next/link";
 import Image from "next/image";
 import { SectionHeader } from "./SectionHeader";
-import { FEATURED_PROJECTS } from "@/lib/data";
+import { getFeaturedProjectsContent } from "@/lib/content";
 import { IconArrowRight, IconGithub } from "./Icons";
 
 export function FeaturedProjects() {
+  const featured = getFeaturedProjectsContent();
+
   return (
     <section id="projects" className="relative mx-auto max-w-[1280px] px-6 py-9">
       <div className="flex items-end justify-between">
-        <SectionHeader title="精选项目" sub="Featured Projects" />
-        <Link href="/projects" className="hidden items-center gap-2 text-[12px] tracking-[0.18em] text-[var(--color-gold-300)] transition hover:text-[var(--color-firefly-300)] md:inline-flex">查看全部 <IconArrowRight width={14} height={14} /></Link>
+        <SectionHeader title={featured.title} sub={featured.sub} />
+        <Link href={featured.actionHref} className="hidden items-center gap-2 text-[12px] tracking-[0.18em] text-[var(--color-gold-300)] transition hover:text-[var(--color-firefly-300)] md:inline-flex">{featured.actionLabel} <IconArrowRight width={14} height={14} /></Link>
       </div>
 
       <div className="mt-7 grid gap-5 md:grid-cols-3">
-        {FEATURED_PROJECTS.map((p, i) => (
+        {featured.projects.map((p, i) => (
           <article key={p.id} className="card-paper group relative overflow-hidden p-0">
             <span className="bamboo-tab">{i === 0 ? "壹" : i === 1 ? "贰" : "叁"}</span>
             <div className="relative aspect-[16/7.8] overflow-hidden border-b border-[rgba(74,50,29,.2)]">

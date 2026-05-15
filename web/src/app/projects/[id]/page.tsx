@@ -177,7 +177,7 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
             <div className="relative max-w-[620px]">
               <p className="font-display text-[13px] tracking-[0.38em] text-[var(--color-gold-300)]">TREE HOLLOW LAB</p>
               <h2 className="mt-3 font-display text-[clamp(1.8rem,3vw,2.7rem)] tracking-[0.12em] text-[var(--color-moon)]">
-                继续翻阅洞天中的工程卷宗
+                继续翻阅夕丰木中的工程卷宗
               </h2>
               <p className="mt-4 text-[14px] leading-[1.85] text-[#cfc4a8]">
                 从项目复盘回到完整项目集，或前往博客阅读与此相关的源码笔记。

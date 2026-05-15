@@ -21,7 +21,7 @@ export default function BlogPage() {
           crumbs={[{ label: "首页", href: "/" }, { label: "博客" }]}
           title="藏书枝阁"
           description="收录技术文章、学习札记与工程复盘"
-          bannerText="灵木不死·洞天自有藏书"
+          bannerText="夕木成林·枝上藏书"
           heightClass="min-h-[350px]"
         >
           <label className="relative block max-w-[470px]">

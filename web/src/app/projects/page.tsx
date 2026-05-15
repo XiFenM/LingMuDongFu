@@ -18,7 +18,7 @@ export default function ProjectsPage() {
           crumbs={[{ label: "首页", href: "/" }, { label: "项目" }]}
           title="项目集"
           english="PROJECTS"
-          description={"在灵木洞天中，每个项目都是一段探索与实践的记录，\n从想法到实现，从算法到系统，从代码到影响力。"}
+          description={"在夕丰木中，每个项目都是一段探索与实践的记录，\n从想法到实现，从算法到系统，从代码到影响力。"}
           bannerText="万物皆可炼·代码亦成器"
           heightClass="min-h-[360px]"
         >

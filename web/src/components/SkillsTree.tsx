@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { SectionHeader } from "./SectionHeader";
-import { SKILLS } from "@/lib/data";
+import { getSkillsContent } from "@/lib/content";
 
 const accentMap: Record<string, string> = {
   firefly: "text-[var(--color-firefly-300)] border-[rgba(156,240,189,0.35)]",
@@ -9,21 +9,23 @@ const accentMap: Record<string, string> = {
 };
 
 export function SkillsTree() {
+  const skills = getSkillsContent();
+
   return (
     <section id="skills" className="relative mx-auto max-w-[1280px] px-6 py-9">
-      <SectionHeader title="灵木技能树" sub="Skills Tree" />
+      <SectionHeader title={skills.title} sub={skills.sub} />
 
       <div className="relative mt-8 grid items-center gap-y-5 md:grid-cols-[1fr_300px_1fr] md:gap-x-5 lg:grid-cols-[1fr_360px_1fr] lg:gap-x-8">
         <BranchConnectors />
 
         <div className="relative z-10 flex flex-col gap-3">
-          {SKILLS.slice(0, 3).map((s) => <SkillBranch key={s.branch} {...s} align="right" />)}
+          {skills.branches.slice(0, 3).map((s) => <SkillBranch key={s.branch} {...s} align="right" />)}
         </div>
 
         <SkillTreeIllustration />
 
         <div className="relative z-10 flex flex-col gap-3">
-          {SKILLS.slice(3).map((s) => <SkillBranch key={s.branch} {...s} align="left" />)}
+          {skills.branches.slice(3).map((s) => <SkillBranch key={s.branch} {...s} align="left" />)}
         </div>
       </div>
     </section>

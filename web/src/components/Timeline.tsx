@@ -1,7 +1,7 @@
 import Image from "next/image";
 import type { CSSProperties } from "react";
 import { SectionHeader } from "./SectionHeader";
-import { TIMELINE } from "@/lib/data";
+import { getTimelineContent } from "@/lib/content";
 
 const markerLayout = [
   {
@@ -31,16 +31,18 @@ const markerLayout = [
 ] as const;
 
 export function Timeline() {
+  const timeline = getTimelineContent();
+
   return (
     <section id="timeline" className="relative mx-auto max-w-[1280px] px-6 py-9">
-      <SectionHeader title="年轮时间线" sub="Timeline" />
+      <SectionHeader title={timeline.title} sub={timeline.sub} />
 
       <div className="relative mt-6 min-h-[390px] overflow-hidden">
         <div className="pointer-events-none absolute inset-x-0 bottom-0 top-8 bg-[radial-gradient(ellipse_at_center,rgba(224,204,136,.12),transparent_56%)] opacity-80" />
         <YearRingDisk />
 
         <ol className="relative z-10 hidden min-h-[360px] md:block">
-          {TIMELINE.map((item, index) => {
+          {timeline.items.map((item, index) => {
             const layout = markerLayout[index % markerLayout.length];
             return (
               <li key={item.year}>
@@ -74,7 +76,7 @@ export function Timeline() {
         </ol>
 
         <ol className="relative z-10 grid gap-3 pt-[230px] md:hidden">
-          {TIMELINE.map((item) => (
+          {timeline.items.map((item) => (
             <li key={item.year} className="card-wood grid grid-cols-[70px_1fr] gap-3 p-4">
               <div className="font-display text-[22px] tracking-[0.08em] text-[var(--color-gold-300)]">{item.year}</div>
               <div>

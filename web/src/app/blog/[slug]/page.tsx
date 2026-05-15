@@ -39,7 +39,7 @@ export default async function BlogDetailPage({ params }: { params: Promise<{ slu
           </div>
           <div className="mt-6 flex items-center gap-3 text-[#cfc4a8]">
             <span className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-[rgba(224,204,136,.35)] text-[var(--color-gold-300)]"><IconUser width={18} height={18} /></span>
-            <span className="font-display tracking-[0.12em]">沈寅杰 / Yinjie Shen</span>
+            <span className="font-display tracking-[0.12em]">沈殷桀 / Yinjie Shen</span>
           </div>
         </PageHero>
 

@@ -53,7 +53,7 @@ export default function ResumePage() {
                 </div>
                 <Image src="/assets/lydt/resume/avatar-frame-tree-ring.svg" alt="" fill sizes="208px" className="pointer-events-none object-contain drop-shadow-[0_0_24px_rgba(224,204,136,.2)]" />
               </div>
-              <h2 className="mt-2 font-display text-[34px] tracking-[0.18em] text-[var(--color-moon)]">沈寅杰</h2>
+              <h2 className="mt-2 font-display text-[34px] tracking-[0.18em] text-[var(--color-moon)]">沈殷桀</h2>
               <p className="font-display text-[18px] tracking-[0.08em] text-[var(--color-gold-300)]">Yinjie Shen</p>
             </div>
             <p className="mt-6 border-y border-[rgba(224,204,136,.16)] py-5 text-center text-[14px] leading-[1.8] text-[#cfc4a8]">{SITE.role}</p>

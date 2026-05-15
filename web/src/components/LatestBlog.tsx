@@ -1,19 +1,21 @@
 import Link from "next/link";
 import Image from "next/image";
 import { SectionHeader } from "./SectionHeader";
-import { LATEST_POSTS } from "@/lib/data";
+import { getLatestNotesContent } from "@/lib/content";
 import { IconArrowRight, IconCalendar } from "./Icons";
 
 export function LatestBlog() {
+  const latest = getLatestNotesContent();
+
   return (
     <section id="blog" className="relative mx-auto max-w-[1280px] px-6 py-9">
       <div className="flex items-end justify-between">
-        <SectionHeader title="最新技博" sub="Latest Notes" />
-        <Link href="/blog" className="hidden items-center gap-2 text-[12px] tracking-[0.18em] text-[var(--color-gold-300)] transition hover:text-[var(--color-firefly-300)] md:inline-flex">前往藏书枝阁 <IconArrowRight width={14} height={14} /></Link>
+        <SectionHeader title={latest.title} sub={latest.sub} />
+        <Link href={latest.actionHref} className="hidden items-center gap-2 text-[12px] tracking-[0.18em] text-[var(--color-gold-300)] transition hover:text-[var(--color-firefly-300)] md:inline-flex">{latest.actionLabel} <IconArrowRight width={14} height={14} /></Link>
       </div>
 
       <div className="mt-7 grid gap-5 md:grid-cols-3">
-        {LATEST_POSTS.map((p) => (
+        {latest.posts.map((p) => (
           <Link key={p.href} href={p.href} className="card-paper group block overflow-hidden p-0 transition hover:-translate-y-0.5">
             <div className="relative aspect-[16/7.6] overflow-hidden border-b border-[rgba(74,50,29,.18)]">
               <Image
