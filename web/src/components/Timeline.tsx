@@ -41,7 +41,7 @@ export function Timeline() {
 
 function YearRingField({ items }: { items: TimelineItem[] }) {
   return (
-    <div className="pointer-events-none absolute -left-[64vw] top-[-180px] z-0 h-[700px] w-[1180px] max-w-none md:-left-[430px] md:top-[-210px] md:h-[840px] md:w-[1420px] lg:-left-[360px] lg:w-[1520px]">
+    <div className="pointer-events-none absolute left-[calc(-64vw-470px)] top-[-320px] z-0 h-[980px] w-[1650px] max-w-none md:left-[-760px] md:top-[-310px] md:h-[1040px] md:w-[1750px] lg:left-[-940px] lg:top-[-370px] lg:h-[1160px] lg:w-[2100px]">
       <div
         aria-hidden
         className="absolute inset-y-[10%] left-[18%] right-[4%] rounded-[999px] bg-[radial-gradient(ellipse,rgba(224,204,136,.18),rgba(156,240,189,.07)_48%,transparent_72%)] blur-xl"
