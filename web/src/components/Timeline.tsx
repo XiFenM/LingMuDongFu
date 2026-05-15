@@ -1,11 +1,12 @@
+import Image from "next/image";
 import { SectionHeader } from "./SectionHeader";
 import { getTimelineContent } from "@/lib/content";
 
 const markerLayout = [
-  { left: "29%", top: "51%" },
-  { left: "51.5%", top: "51%" },
-  { left: "66%", top: "51%" },
-  { left: "79.5%", top: "51%" },
+  { left: "50%", top: "51%" },
+  { left: "62%", top: "51%" },
+  { left: "74%", top: "51%" },
+  { left: "86%", top: "51%" },
 ] as const;
 
 type TimelineItem = ReturnType<typeof getTimelineContent>["items"][number];
@@ -40,43 +41,23 @@ export function Timeline() {
 
 function YearRingField({ items }: { items: TimelineItem[] }) {
   return (
-    <div className="pointer-events-none absolute -left-[45vw] right-[-12vw] top-[-158px] z-0 h-[670px] md:-left-[160px] md:right-[-60px] md:top-[-190px] md:h-[760px] lg:-left-[210px] lg:right-[-110px]">
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_18%_50%,rgba(244,195,106,.26),rgba(91,54,10,.13)_44%,transparent_73%)] blur-2xl" aria-hidden />
-      <svg className="absolute inset-0 h-full w-full drop-shadow-[0_38px_58px_rgba(0,0,0,.68)]" viewBox="0 0 1280 640" preserveAspectRatio="none" fill="none" aria-hidden>
-        <defs>
-          <linearGradient id="timelineOuter" x1="0" y1="0" x2="1" y2="0">
-            <stop stopColor="#f7d18d" stopOpacity=".98" />
-            <stop offset=".56" stopColor="#f0b45d" stopOpacity=".92" />
-            <stop offset="1" stopColor="#8f5412" stopOpacity=".76" />
-          </linearGradient>
-          <linearGradient id="timelineMid" x1="0" y1="0" x2="1" y2="0">
-            <stop stopColor="#d98308" />
-            <stop offset=".72" stopColor="#f0b35f" />
-            <stop offset="1" stopColor="#75440d" />
-          </linearGradient>
-          <linearGradient id="timelineInner" x1="0" y1="0" x2="1" y2="0">
-            <stop stopColor="#815006" />
-            <stop offset=".62" stopColor="#b56607" />
-            <stop offset="1" stopColor="#4a2d08" />
-          </linearGradient>
-          <radialGradient id="timelineCore" cx="42%" cy="50%" r="74%">
-            <stop stopColor="#815006" />
-            <stop offset=".66" stopColor="#563103" />
-            <stop offset="1" stopColor="#261908" />
-          </radialGradient>
-        </defs>
-
-        <ellipse cx="170" cy="330" rx="1100" ry="392" fill="url(#timelineOuter)" stroke="#36210a" strokeOpacity=".58" strokeWidth="1.5" />
-        <ellipse cx="170" cy="330" rx="918" ry="330" fill="#f5bd70" stroke="#3a250c" strokeOpacity=".46" strokeWidth="1.35" />
-        <ellipse cx="170" cy="330" rx="748" ry="274" fill="url(#timelineMid)" stroke="#2c1b07" strokeOpacity=".52" strokeWidth="1.35" />
-        <ellipse cx="170" cy="330" rx="574" ry="216" fill="url(#timelineInner)" stroke="#2c1b07" strokeOpacity=".58" strokeWidth="1.35" />
-        <ellipse cx="170" cy="330" rx="392" ry="154" fill="url(#timelineCore)" stroke="#1f1507" strokeOpacity=".66" strokeWidth="1.45" />
-      </svg>
+    <div className="pointer-events-none absolute -left-[64vw] top-[-180px] z-0 h-[700px] w-[1180px] max-w-none md:-left-[430px] md:top-[-210px] md:h-[840px] md:w-[1420px] lg:-left-[360px] lg:w-[1520px]">
+      <div
+        aria-hidden
+        className="absolute inset-y-[10%] left-[18%] right-[4%] rounded-[999px] bg-[radial-gradient(ellipse,rgba(224,204,136,.18),rgba(156,240,189,.07)_48%,transparent_72%)] blur-xl"
+      />
+      <Image
+        src="/assets/lydt/timeline/timeline-large-tree-ring-disk.png"
+        alt=""
+        fill
+        sizes="1520px"
+        className="object-fill opacity-[.82] drop-shadow-[0_36px_60px_rgba(0,0,0,.72)]"
+        aria-hidden
+      />
 
       <ol className="absolute inset-0 z-10 hidden md:block">
         {items.map((item, index) => {
           const layout = markerLayout[index % markerLayout.length];
-          const isInner = index === 0;
 
           return (
             <li
@@ -85,9 +66,9 @@ function YearRingField({ items }: { items: TimelineItem[] }) {
               style={layout}
               aria-label={`${item.year} ${item.title}: ${item.note}`}
             >
-              <div className={`inline-flex flex-col items-center rounded-full px-3.5 py-2 shadow-[0_8px_18px_rgba(0,0,0,.22)] ${isInner ? "bg-[rgba(44,27,5,.38)] text-[#f6dea4]" : "bg-[rgba(255,226,157,.18)] text-[#241606]"}`}>
-                <span className="font-display text-[20px] leading-none tracking-[0.08em] lg:text-[22px]">{item.year}</span>
-                <span className="mt-1 font-display text-[12px] leading-none tracking-[0.1em] lg:text-[13px]">{item.title}</span>
+              <div className="inline-flex flex-col items-center rounded-full border border-[rgba(244,195,106,.24)] bg-[rgba(22,13,4,.34)] px-3.5 py-2 text-[#f6dea4] shadow-[0_8px_20px_rgba(0,0,0,.32)] backdrop-blur-[1px]">
+                <span className="font-display text-[20px] leading-none tracking-[0.08em] drop-shadow-[0_1px_4px_rgba(0,0,0,.72)] lg:text-[22px]">{item.year}</span>
+                <span className="mt-1 font-display text-[12px] leading-none tracking-[0.1em] drop-shadow-[0_1px_4px_rgba(0,0,0,.72)] lg:text-[13px]">{item.title}</span>
               </div>
             </li>
           );
