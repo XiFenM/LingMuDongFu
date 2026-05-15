@@ -14,7 +14,10 @@ export function Hero() {
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[var(--color-ink-950)]" />
       </div>
       <Fireflies count={14} />
-      <div className="pointer-events-none absolute top-3 z-10 hidden origin-top-left scale-[0.72] md:left-4 md:block lg:scale-[0.66] [left:max(0.75rem,calc((100vw-1280px)/2+1rem))]">
+      <div
+        className="pointer-events-none absolute top-6 z-10 hidden origin-top-left scale-[0.72] md:block lg:scale-[0.66]"
+        style={{ left: "max(0px, calc((100vw - 1280px) / 2))" }}
+      >
         <HangingBanner
           text={hero.hangingText}
           sub={hero.hangingSub}
