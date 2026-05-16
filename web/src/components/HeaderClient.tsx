@@ -11,6 +11,7 @@ type Props = {
   nav: NavItem[];
   github: string;
   linkedin: string;
+  resumeLabel: string;
 };
 
 function isActive(pathname: string, href: string) {
@@ -19,7 +20,7 @@ function isActive(pathname: string, href: string) {
   return pathname === href || pathname.startsWith(`${href}/`);
 }
 
-export function HeaderClient({ brandName, nav, github, linkedin }: Props) {
+export function HeaderClient({ brandName, nav, github, linkedin, resumeLabel }: Props) {
   const pathname = usePathname();
 
   return (
@@ -60,7 +61,7 @@ export function HeaderClient({ brandName, nav, github, linkedin }: Props) {
             <IconLinkedIn />
           </a>
           <Link href="/resume" className="hidden items-center gap-1 rounded-md border border-[rgba(224,204,136,0.35)] bg-[rgba(232,226,207,.86)] px-4 py-2 text-[12px] tracking-[0.2em] text-[var(--color-ink-950)] shadow-[0_0_18px_-12px_rgba(224,204,136,.9)] transition hover:border-[rgba(224,204,136,0.7)] hover:bg-[var(--color-moon)] md:inline-flex">
-            简历
+            {resumeLabel}
           </Link>
         </div>
       </nav>

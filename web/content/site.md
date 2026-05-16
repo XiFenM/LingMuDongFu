@@ -4,6 +4,13 @@ ownerName: 沈殷桀
 ownerEnglishName: Yinjie Shen
 role: AI Framework Engineer · GPU Computing · Distributed Systems
 siteDescription: AI Framework Engineer · GPU Computing · Distributed Training。在夕丰木记录我的 GPU 与系统笔记。
+metadataTitle: 夕丰木 — Yinjie Shen
+metadataDescription: AI Framework Engineer · GPU Computing · Distributed Training。在夕丰木记录我的 GPU 与系统笔记。
+homeLabel: 首页
+projectsLabel: 项目
+blogLabel: 博客
+resumeLabel: 简历
+footerCopyright: © 2026 Yinjie Shen. All rights reserved.
 copyrightName: Yinjie Shen
 email: yinjie.shen@gmail.com
 github: https://github.com/XiFenM

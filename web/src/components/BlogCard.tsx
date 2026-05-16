@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import type { Post } from "@/lib/data";
 import { techIconFor } from "@/lib/asset-icons";
+import { getUiContent } from "@/lib/content";
 import { IconArrowRight, IconCalendar, IconClock } from "./Icons";
 
 type Props = {
@@ -12,6 +13,7 @@ type Props = {
 export function BlogCard({ post, variant = "archive" }: Props) {
   const featured = variant === "featured";
   const paper = variant === "paper";
+  const ui = getUiContent();
   return (
     <Link
       href={post.href}
@@ -41,7 +43,7 @@ export function BlogCard({ post, variant = "archive" }: Props) {
               ))}
             </ul>
             <span className={`${paper || featured ? "bg-[#0b211d] text-[var(--color-gold-300)]" : "text-[var(--color-gold-300)]"} inline-flex items-center gap-2 rounded-md border border-[rgba(224,204,136,.35)] px-3 py-2 text-[12px] tracking-[0.14em] transition group-hover:border-[rgba(156,240,189,.6)] group-hover:text-[var(--color-firefly-300)]`}>
-              阅读全文 <IconArrowRight width={13} height={13} />
+              {ui.blogCardReadMoreLabel} <IconArrowRight width={13} height={13} />
             </span>
           </div>
         </div>

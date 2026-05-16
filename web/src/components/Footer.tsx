@@ -14,12 +14,12 @@ export function Footer() {
           </span>
           <div>
             <div className="font-display tracking-[0.32em] text-[var(--color-moon)]">{site.brandName}</div>
-            <div className="text-[11px] tracking-[0.18em] text-[#807765]">© 2025 {site.copyrightName}. All rights reserved.</div>
+            <div className="text-[11px] tracking-[0.18em] text-[#807765]">{site.footerCopyright}</div>
           </div>
         </div>
         <ul className="flex flex-wrap gap-x-6 gap-y-2 text-[12px] tracking-[0.18em] text-[#807765]">
           {site.nav.map((item) => (
-            <li key={item.href}><Link href={item.href} className="transition hover:text-[var(--color-gold-300)]">{item.label.replace("首页", "首页")}</Link></li>
+            <li key={item.href}><Link href={item.href} className="transition hover:text-[var(--color-gold-300)]">{item.label}</Link></li>
           ))}
         </ul>
       </div>

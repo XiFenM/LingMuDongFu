@@ -4,43 +4,35 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { PageHero } from "@/components/PageHero";
 import { ProjectCard } from "@/components/ProjectCard";
-import { CONTACT_CARDS, EXPERIENCE, HONORS, PROJECTS, SITE, SOCIAL } from "@/lib/data";
+import { getResumePageContent, getSiteContent } from "@/lib/content";
 import { IconDownload, IconMail } from "@/components/Icons";
 
-const SKILL_LEVELS = [
-  ["CUDA / GPU Computing", "95%"],
-  ["PyTorch Internals", "90%"],
-  ["Distributed Training", "88%"],
-  ["Performance Optimization", "90%"],
-  ["System Design & Backend", "82%"],
-  ["LLM / AI Systems", "85%"],
-];
-
-const HONOR_ICONS = [
-  "/assets/lydt/resume/certificate-topcoder.svg",
-  "/assets/lydt/resume/certificate-acm.svg",
-  "/assets/lydt/resume/certificate-scholarship.svg",
-  "/assets/lydt/resume/certificate-graduate.svg",
-  "/assets/lydt/resume/certificate-nvidia-dli.svg",
-];
-
 export default function ResumePage() {
+  const content = getResumePageContent();
+  const site = getSiteContent();
+
   return (
     <>
       <Header />
       <main>
         <PageHero
           background="/assets/lydt/bg/bg-resume-tree-study-desktop.png"
-          crumbs={[{ label: "首页", href: "/" }, { label: "简历" }]}
-          title="我的简历"
-          english="RESUME"
-          description={"热爱系统与性能，专注 AI 基础设施、\n高性能计算与算法工程。\n持续构建可落地、可扩展、可复用的技术方案。"}
-          bannerText="以木为根·以技为枝"
+          crumbs={[{ label: site.homeLabel, href: "/" }, { label: site.resumeLabel }]}
+          title={content.title}
+          english={content.english}
+          description={content.description}
+          bannerText={content.bannerText}
           heightClass="min-h-[390px]"
         >
           <div className="flex flex-wrap gap-4">
-            <a href="/resume.pdf" className="inline-flex items-center gap-2 rounded-md border border-[rgba(224,204,136,.4)] bg-[rgba(232,226,207,.9)] px-5 py-3 text-[14px] tracking-[0.14em] text-[var(--color-ink-950)]"><IconDownload /> 下载 PDF 简历</a>
-            <a href={SOCIAL.email} className="inline-flex items-center gap-2 rounded-md border border-[rgba(192,163,93,.35)] bg-[rgba(7,18,16,.55)] px-5 py-3 text-[14px] tracking-[0.14em] text-[var(--color-gold-300)]"><IconMail /> 联系我</a>
+            {content.actions.map((action, index) => {
+              const Icon = action.icon === "download" ? IconDownload : IconMail;
+              return (
+                <a key={action.href} href={action.href} className={`${index === 0 ? "border-[rgba(224,204,136,.4)] bg-[rgba(232,226,207,.9)] text-[var(--color-ink-950)]" : "border-[rgba(192,163,93,.35)] bg-[rgba(7,18,16,.55)] text-[var(--color-gold-300)]"} inline-flex items-center gap-2 rounded-md border px-5 py-3 text-[14px] tracking-[0.14em]`}>
+                  <Icon /> {action.label}
+                </a>
+              );
+            })}
           </div>
         </PageHero>
 
@@ -53,16 +45,16 @@ export default function ResumePage() {
                 </div>
                 <Image src="/assets/lydt/resume/avatar-frame-tree-ring.svg" alt="" fill sizes="208px" className="pointer-events-none object-contain drop-shadow-[0_0_24px_rgba(224,204,136,.2)]" />
               </div>
-              <h2 className="mt-2 font-display text-[34px] tracking-[0.18em] text-[var(--color-moon)]">沈殷桀</h2>
-              <p className="font-display text-[18px] tracking-[0.08em] text-[var(--color-gold-300)]">Yinjie Shen</p>
+              <h2 className="mt-2 font-display text-[34px] tracking-[0.18em] text-[var(--color-moon)]">{site.ownerName}</h2>
+              <p className="font-display text-[18px] tracking-[0.08em] text-[var(--color-gold-300)]">{site.ownerEnglishName}</p>
             </div>
-            <p className="mt-6 border-y border-[rgba(224,204,136,.16)] py-5 text-center text-[14px] leading-[1.8] text-[#cfc4a8]">{SITE.role}</p>
+            <p className="mt-6 border-y border-[rgba(224,204,136,.16)] py-5 text-center text-[14px] leading-[1.8] text-[#cfc4a8]">{site.role}</p>
             <dl className="mt-6 space-y-3 text-[13px] text-[#cfc4a8]">
-              {["生日 2000-04-12", "所在地 中国 · 上海", "邮箱 yinjie.shen@gmail.com", "网站 yinjie-shen.com", "Github github.com/yinjie-shen", "LinkedIn linkedin.com/in/yinjie-shen"].map((item) => <div key={item} className="flex justify-between gap-3 border-b border-[rgba(224,204,136,.1)] pb-2"><dt className="text-[var(--color-gold-300)]">{item.split(' ')[0]}</dt><dd className="text-right">{item.split(' ').slice(1).join(' ')}</dd></div>)}
+              {content.profileItems.map((item) => <div key={item.label} className="flex justify-between gap-3 border-b border-[rgba(224,204,136,.1)] pb-2"><dt className="text-[var(--color-gold-300)]">{item.label}</dt><dd className="text-right">{item.value}</dd></div>)}
             </dl>
-            <h3 className="mt-8 font-display text-[20px] tracking-[0.16em] text-[var(--color-gold-300)]">核心技能概览</h3>
+            <h3 className="mt-8 font-display text-[20px] tracking-[0.16em] text-[var(--color-gold-300)]">{content.skillsTitle}</h3>
             <div className="mt-4 space-y-3">
-              {SKILL_LEVELS.map(([label, value]) => (
+              {content.skillLevels.map(({ label, value }) => (
                 <div key={label}>
                   <div className="mb-1 flex justify-between text-[12px] text-[#cfc4a8]"><span>{label}</span><span>{value}</span></div>
                   <div className="h-2 rounded-full border border-[rgba(224,204,136,.12)] bg-[rgba(232,226,207,.08)] [background-image:url('/assets/lydt/texture/texture-tree-ring-subtle.png')] bg-[length:240px_240px]">
@@ -71,10 +63,10 @@ export default function ResumePage() {
                 </div>
               ))}
             </div>
-            <h3 className="mt-8 font-display text-[20px] tracking-[0.16em] text-[var(--color-gold-300)]">教育背景</h3>
+            <h3 className="mt-8 font-display text-[20px] tracking-[0.16em] text-[var(--color-gold-300)]">{content.educationTitle}</h3>
             <div className="mt-3 flex gap-3 rounded-md border border-[rgba(224,204,136,.16)] bg-[rgba(7,18,16,.36)] p-3">
               <Image src="/assets/lydt/resume/emblem-sjtu.svg" alt="" width={48} height={48} className="h-12 w-12 shrink-0" />
-              <p className="text-[14px] leading-[1.8] text-[#cfc4a8]">上海交通大学<br />计算机科学与技术 本科<br />2018.09 — 2022.06</p>
+              <p className="text-[14px] leading-[1.8] text-[#cfc4a8]">{content.education?.school}<br />{content.education?.major}<br />{content.education?.period}</p>
             </div>
             <div className="relative mt-5 aspect-[16/9] overflow-hidden rounded-md border border-[rgba(224,204,136,.18)]">
               <Image src="/assets/lydt/scene/desk-resume-scroll.png" alt="" fill sizes="300px" className="object-cover opacity-90" />
@@ -84,9 +76,9 @@ export default function ResumePage() {
 
           <div className="space-y-6">
             <section className="card-wood p-6">
-              <h2 className="font-display text-[28px] tracking-[0.14em] text-[var(--color-moon)]">工作经历</h2>
+              <h2 className="font-display text-[28px] tracking-[0.14em] text-[var(--color-moon)]">{content.experienceTitle}</h2>
               <div className="mt-8 space-y-6 border-l border-[rgba(224,204,136,.28)] pl-7">
-                {EXPERIENCE.map((exp) => (
+                {content.experience.map((exp) => (
                   <article key={exp.period} className="relative">
                     <Image src="/assets/lydt/resume/resume-timeline-node.svg" alt="" width={42} height={42} className="absolute -left-[49px] top-[-8px] h-[42px] w-[42px]" />
                     <div className="grid gap-4 md:grid-cols-[130px_1fr]">
@@ -110,21 +102,21 @@ export default function ResumePage() {
 
             <section className="card-wood p-6">
               <div className="flex items-center justify-between gap-4">
-                <h2 className="font-display text-[28px] tracking-[0.14em] text-[var(--color-moon)]">代表项目</h2>
-                <Link href="/projects" className="text-[13px] tracking-[0.14em] text-[var(--color-gold-300)]">查看全部项目 →</Link>
+                <h2 className="font-display text-[28px] tracking-[0.14em] text-[var(--color-moon)]">{content.featuredProjectsTitle}</h2>
+                <Link href="/projects" className="text-[13px] tracking-[0.14em] text-[var(--color-gold-300)]">{content.featuredProjectsActionLabel}</Link>
               </div>
               <div className="mt-6 grid gap-5 md:grid-cols-3">
-                {PROJECTS.slice(0, 3).map((project) => <ProjectCard key={project.id} project={project} />)}
+                {content.featuredProjects.map((project) => <ProjectCard key={project.id} project={project} />)}
               </div>
             </section>
 
             <section className="card-wood p-6">
-              <h2 className="font-display text-[28px] tracking-[0.14em] text-[var(--color-moon)]">荣誉与证明</h2>
+              <h2 className="font-display text-[28px] tracking-[0.14em] text-[var(--color-moon)]">{content.honorsTitle}</h2>
               <div className="mt-6 grid gap-4 md:grid-cols-5">
-                {HONORS.map((honor, i) => (
-                  <div key={honor} className="rounded-md border border-[rgba(224,204,136,.24)] bg-[rgba(7,18,16,.52)] p-4 text-center text-[13px] leading-[1.6] text-[#cfc4a8]">
-                    <Image src={HONOR_ICONS[i] ?? HONOR_ICONS[0]} alt="" width={58} height={58} className="mx-auto mb-3 h-[58px] w-[58px]" />
-                    {honor}
+                {content.honors.map((honor) => (
+                  <div key={honor.label} className="rounded-md border border-[rgba(224,204,136,.24)] bg-[rgba(7,18,16,.52)] p-4 text-center text-[13px] leading-[1.6] text-[#cfc4a8]">
+                    <Image src={honor.icon} alt="" width={58} height={58} className="mx-auto mb-3 h-[58px] w-[58px]" />
+                    {honor.label}
                   </div>
                 ))}
               </div>
@@ -136,8 +128,8 @@ export default function ResumePage() {
           <div className="card-wood relative flex min-h-[230px] flex-col gap-5 overflow-hidden p-8 md:flex-row md:items-center md:justify-between">
             <Image src="/assets/lydt/scene/desk-tea.png" alt="" fill sizes="1280px" className="object-cover opacity-68" />
             <div className="absolute inset-0 bg-gradient-to-r from-[rgba(7,18,16,.88)] via-[rgba(7,18,16,.58)] to-[rgba(7,18,16,.22)]" />
-            <div className="relative max-w-[640px]"><h2 className="font-display text-[30px] tracking-[0.14em] text-[var(--color-moon)]">期待与你一起探索更多可能。</h2><p className="mt-3 text-[#cfc4a8]">如果你对我的工作感兴趣，欢迎在月窗茶室留下一次安静的对谈。</p></div>
-            <a href={CONTACT_CARDS[0].href} className="relative inline-flex items-center justify-center gap-2 rounded-md border border-[rgba(224,204,136,.4)] bg-[rgba(7,18,16,.38)] px-8 py-3 text-[var(--color-gold-300)]"><IconMail /> 联系我</a>
+            <div className="relative max-w-[640px]"><h2 className="font-display text-[30px] tracking-[0.14em] text-[var(--color-moon)]">{content.ctaTitle}</h2><p className="mt-3 text-[#cfc4a8]">{content.ctaBody}</p></div>
+            <a href={content.ctaHref || `mailto:${site.email}`} className="relative inline-flex items-center justify-center gap-2 rounded-md border border-[rgba(224,204,136,.4)] bg-[rgba(7,18,16,.38)] px-8 py-3 text-[var(--color-gold-300)]"><IconMail /> {content.ctaLabel}</a>
           </div>
         </section>
       </main>

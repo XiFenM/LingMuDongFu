@@ -10,6 +10,7 @@ export function Header() {
       nav={site.nav}
       github={site.github}
       linkedin={site.linkedin}
+      resumeLabel={site.resumeLabel}
     />
   );
 }

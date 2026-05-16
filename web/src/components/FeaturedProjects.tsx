@@ -17,7 +17,7 @@ export function FeaturedProjects() {
       <div className="mt-7 grid gap-5 md:grid-cols-3">
         {featured.projects.map((p, i) => (
           <article key={p.id} className="card-paper group relative overflow-hidden p-0">
-            <span className="bamboo-tab">{i === 0 ? "壹" : i === 1 ? "贰" : "叁"}</span>
+            <span className="bamboo-tab">{featured.indexLabels[i] ?? String(i + 1).padStart(2, "0")}</span>
             <div className="relative aspect-[16/7.8] overflow-hidden border-b border-[rgba(74,50,29,.2)]">
               <Image
                 src={p.image}
@@ -35,8 +35,8 @@ export function FeaturedProjects() {
                 {p.tags.slice(0, 3).map((t) => <li key={t} className="rounded-md border border-[rgba(74,50,29,.28)] bg-[rgba(255,255,255,.18)] px-2 py-0.5 text-[11px] text-[#5d4a2c]">{t}</li>)}
               </ul>
               <div className="mt-5 flex items-center justify-between border-t border-[rgba(74,50,29,.18)] pt-3">
-                <Link href={p.href} className="rounded-md bg-[#0b211d] px-4 py-2 text-[12px] tracking-[0.14em] text-[var(--color-moon)]">详情</Link>
-                <a href={p.sourceHref} className="inline-flex items-center gap-1 rounded-md border border-[rgba(74,50,29,.3)] px-3 py-2 text-[12px] text-[#2a2117]"><IconGithub width={13} height={13} /> GitHub</a>
+                <Link href={p.href} className="rounded-md bg-[#0b211d] px-4 py-2 text-[12px] tracking-[0.14em] text-[var(--color-moon)]">{featured.detailLabel}</Link>
+                <a href={p.sourceHref} className="inline-flex items-center gap-1 rounded-md border border-[rgba(74,50,29,.3)] px-3 py-2 text-[12px] text-[#2a2117]"><IconGithub width={13} height={13} /> {featured.sourceLabel}</a>
               </div>
             </div>
           </article>
