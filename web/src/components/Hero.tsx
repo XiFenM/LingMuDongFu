@@ -9,7 +9,14 @@ export function Hero() {
   return (
     <section className="relative isolate overflow-hidden">
       <div className="absolute inset-0 -z-10">
-        <Image src="/assets/lydt/bg/bg-home-hero-tree-sanctuary-desktop.png" alt="" fill priority sizes="100vw" className="object-cover object-right" />
+        <Image
+          src="/assets/lydt/bg/bg-home-hero-tree-sanctuary-desktop.png"
+          alt=""
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover object-right xl:object-[right_24%] 2xl:object-[right_18%]"
+        />
         <div className="absolute inset-0 bg-gradient-to-r from-[rgba(7,18,16,0.95)] via-[rgba(7,18,16,0.58)] to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[var(--color-ink-950)]" />
       </div>
