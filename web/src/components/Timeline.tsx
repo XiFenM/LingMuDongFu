@@ -3,10 +3,10 @@ import { SectionHeader } from "./SectionHeader";
 import { getTimelineContent } from "@/lib/content";
 
 const markerLayout = [
-  { left: "50%", top: "51%" },
-  { left: "62%", top: "51%" },
-  { left: "74%", top: "51%" },
-  { left: "86%", top: "51%" },
+  { left: "50%", top: "50.5%" },
+  { left: "62%", top: "49.6%" },
+  { left: "74%", top: "50.3%" },
+  { left: "86%", top: "49.8%" },
 ] as const;
 
 type TimelineItem = ReturnType<typeof getTimelineContent>["items"][number];
@@ -20,16 +20,31 @@ export function Timeline() {
         <SectionHeader title={timeline.title} sub={timeline.sub} />
       </div>
 
-      <div className="relative mt-2 min-h-[430px] overflow-visible md:min-h-[560px]">
+      <div className="relative mt-2 min-h-[500px] overflow-visible md:min-h-[650px] lg:min-h-[660px]">
         <YearRingField items={timeline.items} />
 
-        <ol className="relative z-20 grid gap-3 pt-[190px] md:hidden">
+        <ol className="relative z-20 hidden grid-cols-2 gap-3 pt-[365px] md:grid xl:grid-cols-4 xl:pt-[395px]">
           {timeline.items.map((item) => (
-            <li key={item.year} className="card-wood grid grid-cols-[70px_1fr] gap-3 p-4">
-              <div className="font-display text-[22px] tracking-[0.08em] text-[var(--color-gold-300)]">{item.year}</div>
+            <li
+              key={item.year}
+              className="rounded-xl border border-[rgba(224,204,136,.26)] bg-[rgba(7,23,20,.76)] p-4 shadow-[0_16px_34px_rgba(0,0,0,.28)] backdrop-blur-[3px]"
+            >
+              <div className="flex items-baseline gap-2">
+                <span className="font-display text-[22px] leading-none tracking-[0.08em] text-[var(--color-gold-300)]">{item.year}</span>
+                <span className="font-display text-[14px] tracking-[0.1em] text-[var(--color-moon)]">{item.title}</span>
+              </div>
+              <p className="mt-2 text-[12px] leading-[1.65] text-[#d7ccb0]">{item.note}</p>
+            </li>
+          ))}
+        </ol>
+
+        <ol className="relative z-20 grid gap-3 pt-[225px] md:hidden">
+          {timeline.items.map((item) => (
+            <li key={item.year} className="grid grid-cols-[68px_1fr] gap-3 rounded-lg border border-[rgba(224,204,136,.3)] bg-[rgba(232,226,207,.9)] p-3 shadow-[0_12px_28px_rgba(0,0,0,.28)]">
+              <div className="font-display text-[21px] tracking-[0.08em] text-[#775a1f]">{item.year}</div>
               <div>
-                <div className="font-display text-[15px] tracking-[0.12em] text-[var(--color-moon)]">{item.title}</div>
-                <p className="mt-1 text-[12px] leading-[1.6] text-[#cfc4a8]">{item.note}</p>
+                <div className="font-display text-[15px] tracking-[0.12em] text-[#2a2117]">{item.title}</div>
+                <p className="mt-1 text-[12px] leading-[1.6] text-[#5d513f]">{item.note}</p>
               </div>
             </li>
           ))}
@@ -43,7 +58,11 @@ function YearRingField({ items }: { items: TimelineItem[] }) {
   return (
     <div
       className="pointer-events-none absolute left-0 top-[-320px] -z-10 h-[980px] overflow-hidden md:top-[-310px] md:h-[1040px] lg:top-[-370px] lg:h-[1160px]"
-      style={{ right: "min(0px, calc((1280px - 100vw) / 2))" }}
+      style={{
+        right: "min(0px, calc((1280px - 100vw) / 2))",
+        WebkitMaskImage: "linear-gradient(to right, transparent 0, rgba(0,0,0,.42) 34px, #000 104px)",
+        maskImage: "linear-gradient(to right, transparent 0, rgba(0,0,0,.42) 34px, #000 104px)",
+      }}
     >
       <div className="absolute left-[calc(-64vw-470px)] top-0 h-full w-[1650px] max-w-none md:left-[-760px] md:w-[1750px] lg:left-[-940px] lg:w-[2100px]">
         <div
@@ -55,8 +74,13 @@ function YearRingField({ items }: { items: TimelineItem[] }) {
           alt=""
           fill
           sizes="1520px"
-          className="object-fill opacity-[.82] drop-shadow-[0_36px_60px_rgba(0,0,0,.72)]"
+          className="object-fill opacity-[.68] drop-shadow-[0_36px_60px_rgba(0,0,0,.72)]"
           aria-hidden
+        />
+
+        <div
+          aria-hidden
+          className="absolute inset-x-0 top-0 h-[42%] bg-gradient-to-b from-[rgba(7,23,20,.94)] via-[rgba(7,23,20,.58)] to-transparent"
         />
 
         <ol className="absolute inset-0 z-10 hidden md:block">
